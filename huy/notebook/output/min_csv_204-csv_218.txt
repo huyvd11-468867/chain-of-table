@@ -1,0 +1,35 @@
+question: at least how many types are there?
+> Iteration: 0
+> Current table:
+col : Name | Faith | Type | Gov | Opened | Intake | DCSF number | Ofsted number | Web | Coordinates
+row 1 : Ashfield | – | Junior | VC | 1845.0 | 60.0 | 3012 | 117391 | W | 51°38′22″N 0°21′26″W﻿ / ﻿51.6394°N 0.3571°W
+row 2 : Bournehall | – | Primary | CY | 1969.0 | 30.0 | 2360 | 117296 | W | 51°39′00″N 0°21′37″W﻿ / ﻿51.6499°N 0.3604°W
+row 3 : Bushey Heath | – | Primary | CY | 1879.0 | 30.0 | 2012 | 117088 | W | 51°38′12″N 0°20′29″W﻿ / ﻿51.6368°N 0.3413°W
+row 4 : Bushey Manor | – | Junior | CY | 1907.0 | 60.0 | 2261 | 117242 | W | 51°38′49″N 0°22′33″W﻿ / ﻿51.6470°N 0.3757°W
+row 5 : Falconer | – | Special | CY | nan | nan | 7033 | 117686 | W | 51°38′49″N 0°22′06″W﻿ / ﻿51.6470°N 0.3682°W
+row 6 : Hartsbourne | – | Primary | CY | nan | 30.0 | 2372 | 117300 | W | 51°37′52″N 0°20′33″W﻿ / ﻿51.6312°N 0.3425°W
+row 7 : Highwood | – | Primary | CY | 1949.0 | 60.0 | 2013 | 117089 | W | 51°39′57″N 0°22′30″W﻿ / ﻿51.6658°N 0.3750°W
+row 8 : Little Reddings | – | Primary | FD | nan | 51.0 | 5208 | 117568 | W | 51°38′51″N 0°21′22″W﻿ / ﻿51.6474°N 0.3560°W
+row 9 : Meadow Wood | – | Special | CY | nan | nan | 7043 | 117691 | W | 51°38′54″N 0°21′02″W﻿ / ﻿51.6483°N 0.3506°W
+row 10 : Merry Hill | – | Infants | CY | 1885.0 | 60.0 | 2014 | 117090 | W | 51°38′17″N 0°21′20″W﻿ / ﻿51.6380°N 0.3555°W
+row 11 : Sacred Heart | RC | Primary | VA | 1970.0 | 40.0 | 3415 | 117488 | W | 51°38′38″N 0°22′16″W﻿ / ﻿51.6440°N 0.3711°W
+
+
+> New Operation + Args: f_select_column(['Type'])
+> Current chain: f_select_column(['Type']) -> 
+> Iteration: 1
+> Current table:
+col : Type
+row 1 : Junior
+row 2 : Primary
+row 3 : Primary
+row 4 : Junior
+row 5 : Special
+row 6 : Primary
+row 7 : Primary
+row 8 : Primary
+row 9 : Special
+row 10 : Infants
+row 11 : Primary
+
+AttributeError: 'NoneType' object has no attribute 'group'

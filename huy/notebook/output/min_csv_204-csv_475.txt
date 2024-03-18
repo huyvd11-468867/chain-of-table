@@ -1,0 +1,29 @@
+question: what is the away team with the lowest score?
+> Iteration: 0
+> Current table:
+col : Home Team | Score | Away Team | Date | Agg
+row 1 : Aberdeen | 7–1 | Hamilton Academical | 11-10-1978 | 8–1
+row 2 : Airdrieonians | 1–2 | Arbroath | 10-10-1978 | 2–3
+row 3 : Ayr United | 1–1 | Falkirk | 11-10-1978 | 3–1
+row 4 : Clydebank | 1–1 | Hibernian | 11-10-1978 | 1–2
+row 5 : Morton | 5–2 | Kilmarnock | 11-10-1978 | 5–4
+row 6 : Montrose | 5–1 | Raith Rovers | 11-10-1978 | 5–4
+row 7 : Motherwell | 1–4 | Celtic | 11-10-1978 | 2–4
+row 8 : St. Mirren | 0–0 | Rangers | 11-10-1978 | 2–3
+
+
+> New Operation + Args: f_select_column(['Score', 'Away Team'])
+> Current chain: f_select_column(['Score', 'Away Team']) -> 
+> Iteration: 1
+> Current table:
+col : Score | Away Team
+row 1 : 7–1 | Hamilton Academical
+row 2 : 1–2 | Arbroath
+row 3 : 1–1 | Falkirk
+row 4 : 1–1 | Hibernian
+row 5 : 5–2 | Kilmarnock
+row 6 : 5–1 | Raith Rovers
+row 7 : 1–4 | Celtic
+row 8 : 0–0 | Rangers
+
+KeyError: ''

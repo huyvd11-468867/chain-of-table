@@ -1,0 +1,205 @@
+csv/203-csv/573.csv,which surname on the list belongs to the smallest number of people?,Wilson,"assistant: The last table provided contains only a single number and no list of surnames or any other data that could be used to determine which surname belongs to the smallest number of people. To answer the question, additional information is required, such as a list of surnames and the number of people associated with each surname. Without this information, it is not possible to determine which surname belongs to the smallest number of people.",0,"col : Name | Rank - 2000 | Number | Country of Origin | England - 2001
+row 1 : Smith | 1 | 2,376,207 | England, Scotland | Smith
+row 2 : Johnson | 2 | 1,857,160 | England | Jones
+row 3 : Williams | 3 | 1,534,042 | England, Wales | Taylor
+row 4 : Brown | 4 | 1,380,145 | England, Ireland, Scotland | Brown
+row 5 : Jones | 5 | 1,362,755 | England, Wales | Williams
+row 6 : Miller | 6 | 1,127,803 | England, Ireland, or Scotland (Miller can be the anglicized version of Mueller/Müller - a surname from Germany) | Wilson
+row 7 : Davis | 7 | 1,072,335 | England, Wales | Johnson
+row 8 : García | 8 | 858,289 | Spain | Davies
+row 9 : Rodríguez | 9 | 804,240 | Spain | Robinson
+row 10 : Wilson | 10 | 783,051 | England, Scotland | Wright
+","['f_select_column', ['Number']]",f_select_column(['Number']) -> 
+csv/203-csv/573.csv,which surname on the list belongs to the smallest number of people?,Wilson,"assistant: The last table provided contains only a single number and no list of surnames or any other data that could be used to determine which surname belongs to the smallest number of people. To answer the question, additional information is required, such as a list of surnames and the number of people associated with each surname. Without this information, it is not possible to determine which surname belongs to the smallest number of people.",1,"col : Number
+row 1 : 2,376,207
+row 2 : 1,857,160
+row 3 : 1,534,042
+row 4 : 1,380,145
+row 5 : 1,362,755
+row 6 : 1,127,803
+row 7 : 1,072,335
+row 8 : 858,289
+row 9 : 804,240
+row 10 : 783,051
+","['f_sort_by', ['Number']]",f_select_column(['Number']) -> f_sort_by(['Number']) -> 
+csv/203-csv/573.csv,which surname on the list belongs to the smallest number of people?,Wilson,"assistant: The last table provided contains only a single number and no list of surnames or any other data that could be used to determine which surname belongs to the smallest number of people. To answer the question, additional information is required, such as a list of surnames and the number of people associated with each surname. Without this information, it is not possible to determine which surname belongs to the smallest number of people.",2,"col : Number
+row 1 : 858,289
+row 2 : 804,240
+row 3 : 783,051
+row 4 : 2,376,207
+row 5 : 1,857,160
+row 6 : 1,534,042
+row 7 : 1,380,145
+row 8 : 1,362,755
+row 9 : 1,127,803
+row 10 : 1,072,335
+","['f_select_row', ['row 3']]",f_select_column(['Number']) -> f_sort_by(['Number']) -> f_select_row(['row 3']) -> 
+csv/203-csv/88.csv,which language had the smallest number of females speaking it.,Romanian
+csv/204-csv/232.csv,which other nation had the lowest in bronze,Uruguay|Peru,"assistant: The answer is: Paraguay.
+
+Based on the table provided, Paraguay had 1 bronze medal, which is the lowest count of bronze medals listed in the table. Bolivia had more with 2 bronze medals.",0,"col : Rank | Nation | Gold | Silver | Bronze | Total
+row 1 : 1 | Brazil | 13 | 18 | 12 | 43
+row 2 : 2 | Argentina | 7 | 4 | 7 | 18
+row 3 : 3 | Chile | 7 | 2 | 3 | 12
+row 4 : 4 | Colombia | 5 | 5 | 4 | 14
+row 5 : 5 | Venezuela | 4 | 6 | 6 | 16
+row 6 : 6 | Uruguay | 1 | 1 | 0 | 2
+row 7 : 7 | Peru | 0 | 1 | 0 | 1
+row 8 : 8 | Panama | 0 | 0 | 2 | 2
+row 9 : 8 | Bolivia | 0 | 0 | 2 | 2
+row 10 : 10 | Paraguay | 0 | 0 | 1 | 1
+","['f_sort_by', ['Bronze']]",f_sort_by(['Bronze']) -> 
+csv/204-csv/232.csv,which other nation had the lowest in bronze,Uruguay|Peru,"assistant: The answer is: Paraguay.
+
+Based on the table provided, Paraguay had 1 bronze medal, which is the lowest count of bronze medals listed in the table. Bolivia had more with 2 bronze medals.",1,"col : Rank | Nation | Gold | Silver | Bronze | Total
+row 1 : 1 | Brazil | 13 | 18 | 12 | 43
+row 2 : 2 | Argentina | 7 | 4 | 7 | 18
+row 3 : 5 | Venezuela | 4 | 6 | 6 | 16
+row 4 : 4 | Colombia | 5 | 5 | 4 | 14
+row 5 : 3 | Chile | 7 | 2 | 3 | 12
+row 6 : 8 | Panama | 0 | 0 | 2 | 2
+row 7 : 8 | Bolivia | 0 | 0 | 2 | 2
+row 8 : 10 | Paraguay | 0 | 0 | 1 | 1
+row 9 : 6 | Uruguay | 1 | 1 | 0 | 2
+row 10 : 7 | Peru | 0 | 1 | 0 | 1
+","['f_select_row', ['row 9', 'row 10']]","f_sort_by(['Bronze']) -> f_select_row(['row 9', 'row 10']) -> "
+csv/204-csv/232.csv,which other nation had the lowest in bronze,Uruguay|Peru,"assistant: The answer is: Paraguay.
+
+Based on the table provided, Paraguay had 1 bronze medal, which is the lowest count of bronze medals listed in the table. Bolivia had more with 2 bronze medals.",2,"col : Rank | Nation | Gold | Silver | Bronze | Total
+row 1 : 8 | Bolivia | 0 | 0 | 2 | 2
+row 2 : 10 | Paraguay | 0 | 0 | 1 | 1
+","['f_select_column', ['Nation', 'Bronze']]","f_sort_by(['Bronze']) -> f_select_row(['row 9', 'row 10']) -> f_select_column(['Nation', 'Bronze']) -> "
+csv/204-csv/487.csv,how many teams won by at least three points?,4
+csv/204-csv/878.csv,which model released in august 1012 had the least kpixels?,S01
+csv/204-csv/671.csv,how many movies have at least 20 episodes?,9
+csv/203-csv/716.csv,how many countries have at least 2 bronze medals?,8
+csv/204-csv/660.csv,which count had the least number of votes for obama?,Modoc,"assistant: To find the count with the least number of votes for Obama, we need to identify the smallest number in the ""Votes"" column. From the provided table, we can see that the smallest number is:
+
+row 58 : 1,113
+
+Therefore, the count with the least number of votes for Obama is 1,113.",0,"col : County | Obama | Votes | Romney | Votes.1 | Others | Votes.2 | Total
+row 1 : Alameda | 78.7% | 469,684 | 18.1% | 108,182 | 3.2% | 19,027 | 596,893
+row 2 : Alpine | 59.5% | 389 | 36.1% | 236 | 4.4% | 29 | 654
+row 3 : Amador | 38.6% | 6,830 | 58.1% | 10,281 | 3.3% | 582 | 17,693
+row 4 : Butte | 46.9% | 42,669 | 48.9% | 44,479 | 4.2% | 3,873 | 91,021
+row 5 : Calaveras | 39.7% | 8,670 | 56.5% | 12,365 | 3.8% | 827 | 21,862
+row 6 : Colusa | 38.3% | 2,314 | 59.6% | 3,601 | 2.1% | 130 | 6,045
+row 7 : Contra Costa | 66.2% | 290,824 | 31.1% | 136,517 | 2.7% | 11,804 | 439,145
+row 8 : Del Norte | 43.4% | 3,791 | 52.8% | 4,614 | 3.8% | 331 | 8,736
+row 9 : El Dorado | 39.5% | 35,166 | 57.3% | 50,973 | 3.2% | 2,859 | 88,998
+row 10 : Fresno | 49.7% | 129,129 | 47.9% | 124,490 | 1.8% | 6,078 | 259,697
+row 11 : Glenn | 35.9% | 3,301 | 61.3% | 5,632 | 2.8% | 258 | 9,191
+row 12 : Humboldt | 59.7% | 34,457 | 32.6% | 18,825 | 7.7% | 4,404 | 57,686
+row 13 : Imperial | 65.2% | 25,136 | 33.2% | 12,776 | 1.6% | 620 | 38,532
+row 14 : Inyo | 42.8% | 3,422 | 54.2% | 4,340 | 3.0% | 242 | 8,004
+row 15 : Kern | 40.5% | 89,495 | 57.3% | 126,618 | 2.2% | 4,900 | 221,013
+row 16 : Kings | 41.4% | 12,979 | 56.4% | 17,671 | 2.2% | 701 | 31,351
+row 17 : Lake | 56.4% | 13,163 | 39.5% | 9,200 | 4.1% | 955 | 23,318
+row 18 : Lassen | 28.5% | 3,053 | 68.0% | 7,296 | 3.5% | 376 | 10,725
+row 19 : Los Angeles | 69.7% | 2,216,903 | 27.8% | 885,333 | 2.5% | 77,378 | 3,179,614
+row 20 : Madera | 40.2% | 16,018 | 57.3% | 22,852 | 2.5% | 996 | 39,866
+row 21 : Marin | 74.1% | 99,896 | 22.9% | 30,880 | 3.0% | 3,955 | 134,731
+row 22 : Mariposa | 39.0% | 3,498 | 57.3% | 5,140 | 3.7% | 335 | 8,973
+row 23 : Mendocino | 66.0% | 23,193 | 27.5% | 9,658 | 6.5% | 2,286 | 35,137
+row 24 : Merced | 53.0% | 33,005 | 44.3% | 27,581 | 2.7% | 1,636 | 62,222
+row 25 : Modoc | 27.7% | 1,113 | 69.1% | 2,779 | 3.2% | 130 | 4,022
+row 26 : Mono | 52.9% | 2,733 | 44.2% | 2,285 | 2.9% | 150 | 5,168
+row 27 : Monterey | 67.3% | 82,918 | 30.3% | 37,389 | 2.4% | 2,959 | 123,266
+row 28 : Napa | 63.1% | 35,870 | 34.3% | 19,526 | 2.6% | 1,457 | 56,853
+row 29 : Nevada | 47.7% | 24,663 | 48.4% | 24,986 | 3.9% | 2,026 | 51,675
+row 30 : Orange | 45.6% | 512,440 | 51.9% | 582,332 | 2.5% | 27,892 | 1,122,664
+row 31 : Placer | 38.9% | 66,818 | 58.2% | 99,921 | 2.9% | 4,972 | 171,711
+row 32 : Plumas | 39.9% | 4,026 | 56.8% | 5,721 | 3.3% | 333 | 10,080
+row 33 : Riverside | 49.8% | 329,063 | 48.2% | 318,127 | 2.0% | 13,425 | 660,615
+row 34 : Sacramento | 58.1% | 300,503 | 39.1% | 202,514 | 2.8% | 14,565 | 517,582
+row 35 : San Benito | 59.1% | 11,276 | 38.5% | 7,343 | 2.4% | 462 | 19,081
+row 36 : San Bernardino | 52.6% | 305,109 | 45.2% | 262,358 | 2.2% | 13,136 | 580,603
+row 37 : San Diego | 52.7% | 626,957 | 45.1% | 536,726 | 2.2% | 25,288 | 1,188,971
+row 38 : San Francisco | 83.4% | 301,723 | 13.0% | 47,076 | 3.4% | 12,996 | 361,795
+row 39 : San Joaquin | 55.6% | 114,121 | 41.9% | 86,071 | 2.5% | 5,172 | 205,364
+row 40 : San Luis Obispo | 48.6% | 61,258 | 47.6% | 59,967 | 3.8% | 4,741 | 125,966
+row 41 : San Mateo | 72.1% | 206,087 | 25.4% | 72,756 | 2.5% | 6,878 | 285,721
+row 42 : Santa Barbara | 57.4% | 94,129 | 39.4% | 64,606 | 3.2% | 5,150 | 163,885
+row 43 : Santa Clara | 70.2% | 450,818 | 27.2% | 174,843 | 2.6% | 16,290 | 641,951
+row 44 : Santa Cruz | 75.4% | 90,805 | 20.0% | 24,047 | 4.6% | 5,533 | 120,385
+row 45 : Shasta | 33.8% | 25,819 | 62.8% | 48,067 | 3.4% | 2,615 | 76,501
+row 46 : Sierra | 36.3% | 652 | 58.7% | 1,056 | 5.0% | 90 | 1,798
+row 47 : Siskiyou | 40.2% | 8,044 | 55.4% | 11,076 | 4.4% | 870 | 19,990
+row 48 : Solano | 63.3% | 96,783 | 34.1% | 52,092 | 2.6% | 3,965 | 152,840
+row 49 : Sonoma | 71.0% | 153,942 | 25.3% | 54,784 | 3.2% | 8,139 | 216,865
+row 50 : Stanislaus | 49.9% | 77,724 | 47.1% | 73,459 | 3.0% | 4,633 | 155,816
+row 51 : Sutter | 39.2% | 12,192 | 58.3% | 18,122 | 2.5% | 769 | 31,083
+row 52 : Tehama | 34.4% | 7,934 | 61.8% | 14,235 | 3.8% | 874 | 23,043
+row 53 : Trinity | 46.6% | 2,674 | 47.3% | 2,716 | 6.1% | 349 | 5,739
+row 54 : Tulare | 41.2% | 41,752 | 56.2% | 56,956 | 2.6% | 2,571 | 101,279
+row 55 : Tuolumne | 40.4% | 9,998 | 56.0% | 13,880 | 3.6% | 880 | 24,758
+row 56 : Ventura | 52.2% | 170,929 | 45.1% | 147,958 | 2.7% | 8,825 | 327,712
+row 57 : Yolo | 65.4% | 48,715 | 31.4% | 23,368 | 3.2% | 2,392 | 74,475
+row 58 : Yuba | 39.3% | 7,711 | 57.4% | 11,275 | 3.3% | 660 | 19,646
+","['f_select_column', ['Votes']]",f_select_column(['Votes']) -> 
+csv/204-csv/660.csv,which count had the least number of votes for obama?,Modoc,"assistant: To find the count with the least number of votes for Obama, we need to identify the smallest number in the ""Votes"" column. From the provided table, we can see that the smallest number is:
+
+row 58 : 1,113
+
+Therefore, the count with the least number of votes for Obama is 1,113.",1,"col : Votes
+row 1 : 469,684
+row 2 : 389
+row 3 : 6,830
+row 4 : 42,669
+row 5 : 8,670
+row 6 : 2,314
+row 7 : 290,824
+row 8 : 3,791
+row 9 : 35,166
+row 10 : 129,129
+row 11 : 3,301
+row 12 : 34,457
+row 13 : 25,136
+row 14 : 3,422
+row 15 : 89,495
+row 16 : 12,979
+row 17 : 13,163
+row 18 : 3,053
+row 19 : 2,216,903
+row 20 : 16,018
+row 21 : 99,896
+row 22 : 3,498
+row 23 : 23,193
+row 24 : 33,005
+row 25 : 1,113
+row 26 : 2,733
+row 27 : 82,918
+row 28 : 35,870
+row 29 : 24,663
+row 30 : 512,440
+row 31 : 66,818
+row 32 : 4,026
+row 33 : 329,063
+row 34 : 300,503
+row 35 : 11,276
+row 36 : 305,109
+row 37 : 626,957
+row 38 : 301,723
+row 39 : 114,121
+row 40 : 61,258
+row 41 : 206,087
+row 42 : 94,129
+row 43 : 450,818
+row 44 : 90,805
+row 45 : 25,819
+row 46 : 652
+row 47 : 8,044
+row 48 : 96,783
+row 49 : 153,942
+row 50 : 77,724
+row 51 : 12,192
+row 52 : 7,934
+row 53 : 2,674
+row 54 : 41,752
+row 55 : 9,998
+row 56 : 170,929
+row 57 : 48,715
+row 58 : 7,711
+","['f_sort_by', ['Votes']]",f_select_column(['Votes']) -> f_sort_by(['Votes']) -> 
+csv/203-csv/396.csv,"how many years did international passengers number at least 100,000?",4
+csv/203-csv/865.csv,which athlete consecutively scored the lowest?,Earlene Brown

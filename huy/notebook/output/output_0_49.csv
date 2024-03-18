@@ -1,0 +1,996 @@
+file_name,question,target_answer,iteration,current_table,key_value,current_chain
+csv/203-csv/611.csv,which member of the 500 club has the least amount of home runs?,Eddie Murray,0,"col : Player | HR | Date reached 500 HR | Team | Seasons played
+row 1 : Barry Bonds | 762 | April 17, 2001 | San Francisco Giants | 1986–2007
+row 2 : Hank Aaron | 755 | July 14, 1968 | Atlanta Braves | 1954–1976
+row 3 : Babe Ruth | 714 | August 11, 1929 | New York Yankees | 1914–1935
+row 4 : Willie Mays | 660 | September 13, 1965 | San Francisco Giants | 1951–1952,\n1954–1973
+row 5 : Alex Rodriguez | 654 | August 4, 2007 | New York Yankees | 1994–
+row 6 : Ken Griffey, Jr. | 630 | June 20, 2004 | Cincinnati Reds | 1989–2010
+row 7 : Jim Thome | 612 | September 16, 2007 | Chicago White Sox | 1991–2012
+row 8 : Sammy Sosa | 609 | April 4, 2003 | Chicago Cubs | 1989–2005,\n2007
+row 9 : Frank Robinson | 586 | September 13, 1971 | Baltimore Orioles | 1956–1976
+row 10 : Mark McGwire | 583 | August 5, 1999 | St. Louis Cardinals | 1986–2001
+row 11 : Harmon Killebrew | 573 | August 10, 1971 | Minnesota Twins | 1954–1975
+row 12 : Rafael Palmeiro | 569 | May 11, 2003 | Texas Rangers | 1986–2005
+row 13 : Reggie Jackson | 563 | September 17, 1984 | California Angels | 1967–1987
+row 14 : Manny Ramirez | 555 | May 31, 2008 | Boston Red Sox | 1993–2011
+row 15 : Mike Schmidt | 548 | April 18, 1987 | Philadelphia Phillies | 1972–1989
+row 16 : Mickey Mantle | 536 | May 14, 1967 | New York Yankees | 1951–1968
+row 17 : Jimmie Foxx | 534 | September 24, 1940 | Boston Red Sox | 1925–1942,\n1944–1945
+row 18 : Ted Williams | 521 | June 17, 1960 | Boston Red Sox | 1939–1942,\n1946–1960
+row 19 : Willie McCovey | 521 | June 30, 1978 | San Francisco Giants | 1959–1980
+row 20 : Frank Thomas | 521 | June 28, 2007 | Toronto Blue Jays | 1990–2008
+row 21 : Ernie Banks | 512 | May 12, 1970 | Chicago Cubs | 1953–1971
+row 22 : Eddie Mathews | 512 | July 14, 1967 | Houston Astros | 1952–1968
+row 23 : Mel Ott | 511 | August 1, 1945 | New York Giants | 1926–1947
+row 24 : Gary Sheffield | 509 | April 17, 2009 | New York Mets | 1988–2009
+row 25 : Eddie Murray | 504 | September 6, 1996 | Baltimore Orioles | 1977–1997
+","['f_sort_by', ['HR']]",f_sort_by(['HR']) -> 
+csv/204-csv/615.csv,how many games did at least 1500 people attend?,11,,,,
+csv/203-csv/470.csv,which month were the least amount of games held in?,April,,,,
+csv/204-csv/786.csv,who received the least amount of votes?,Karen Olsson,0,"col : Riding | Candidate | Gender | Residence | Occupation | Votes | % | Rank | Biographical notes
+row 1 : Cape Breton—Canso | Mark MacNeill | M | Inverness | Government and Business Policy Advisor | 7,660 | 21.1 | 3rd | Served in Ottawa as a consultant with National Advisory Board on Science and Technology, with the Treasury Board Secretariat and the Solicitor General's Aboriginal Policing Secretariat.
+row 2 : Central Nova | Mary Louise Lorefice | F | Antigonish | Retired educator | 7,659 | 19.6 | 3rd | Lorefice is a retired teacher from Antigonish, who has lived in the community for 38 years.
+row 3 : Cumberland—Colchester—Musquodoboit Valley | Karen Olsson | F | North River | Stay-at-home Mother | 4,874 | 12.3 | 2nd | nan
+row 4 : Dartmouth—Cole Harbour | Brad Pye | M | Ottawa, ON | Senior Political Party Program Officer | 12,793 | 31.5 | 2nd | Pye is an international development worker and son of former Dartmouth North MLA Jerry Pye.
+row 5 : Halifax | Megan Leslie | F | Halifax | Community Legal Worker | 19,252 | 42.7 | 1st | nan
+row 6 : Halifax West | Tamara Lorincz | F | Halifax | Director of Nova Scotia Environment Network | 12,201 | 29.6 | 2nd | An environmentalist.
+row 7 : Kings—Hants | Carol E. Harris | F | Wolfville | University Professor | 8,291 | 22.0 | 3rd | She was the NDP's candidate in the 2000 election in Esquimalt—Juan de Fuca.
+row 8 : Sackville—Eastern Shore | Peter Stoffer | M | Windsor Junction | Parliamentarian | 24,279 | 61.4 | 1st | Stoffer has been the incumbent MP since 1997.
+row 9 : South Shore—St. Margaret's | Gordon S. Earle | M | Upper Tantallon | Retired Public Servant | 13,456 | 33.7 | 2nd | Earle is the former federal MP for Halifax West (1997–2000). Has run in this riding unsuccessfully in 2004 and 2006.
+row 10 : Sydney—Victoria | Wayne McKay | M | Sydney | Teacher | 8,559 | 24.4 | 2nd | nan
+row 11 : West Nova | George Barron | M | Bear River | Paramedic | 7,097 | 16.9 | 3rd | Barron was born near Paris, Ontario, he has been a paramedic for 22 years. He was nominated on October 28, 2007.
+row 12 : Cape Breton—Cans | Mark MacNeill | M | Inverness | Government and Business Policy Advisor | 7,660 | 21.1 | 3rd | Served in Ottawa as a consultant with National Advisory Board on Science and Technology, with the Treasury Board Secretariat and the Solicitor General's Aboriginal Policing Secretariat.
+row 13 : Central Nov | Mary Louise Lorefice | F | Antigonish | Retired educator | 7,659 | 19.6 | 3rd | Lorefice is a retired teacher from Antigonish, who has lived in the community for 38 years.
+row 14 : Cumberlad—Colchester—Musquodoboit Valley | Karen Olsson | F | North River | Stay-at-home Mother | 4,874 | 12.3 | 2nd | nan
+row 15 : Dartmouth—ole Harbour | Brad Pye | M | Ottawa, ON | Senior Political Party Program Officer | 12,793 | 31.5 | 2nd | Pye is an international development worker and son of former Dartmouth North MLA Jerry Pye.
+row 16 : Halfax | Megan Leslie | F | Halifax | Community Legal Worker | 19,252 | 42.7 | 1st | nan
+row 17 : Halifx West | Tamara Lorincz | F | Halifax | Director of Nova Scotia Environment Network | 12,201 | 29.6 | 2nd | An environmentalist.
+row 18 : King—Hants | Carol E. Harris | F | Wolfville | University Professor | 8,291 | 22.0 | 3rd | She was the NDP's candidate in the 2000 election in Esquimalt—Juan de Fuca.
+row 19 : Sackille—Eastern Shore | Peter Stoffer | M | Windsor Junction | Parliamentarian | 24,279 | 61.4 | 1st | Stoffer has been the incumbent MP since 1997.
+row 20 : Sout Shore—St. Margaret's | Gordon S. Earle | M | Upper Tantallon | Retired Public Servant | 13,456 | 33.7 | 2nd | Earle is the former federal MP for Halifax West (1997–2000). Has run in this riding unsuccessfully in 2004 and 2006.
+row 21 : Sydey—Victoria | Wayne McKay | M | Sydney | Teacher | 8,559 | 24.4 | 2nd | nan
+row 22 : Wet Nova | George Barron | M | Bear River | Paramedic | 7,097 | 16.9 | 3rd | Barron was born near Paris, Ontario, he has been a paramedic for 22 years. He was nominated on October 28, 2007.
+","['f_select_column', ['Votes']]",f_select_column(['Votes']) -> 
+csv/204-csv/786.csv,who received the least amount of votes?,Karen Olsson,1,"col : Votes
+row 1 : 7,660
+row 2 : 7,659
+row 3 : 4,874
+row 4 : 12,793
+row 5 : 19,252
+row 6 : 12,201
+row 7 : 8,291
+row 8 : 24,279
+row 9 : 13,456
+row 10 : 8,559
+row 11 : 7,097
+row 12 : 7,660
+row 13 : 7,659
+row 14 : 4,874
+row 15 : 12,793
+row 16 : 19,252
+row 17 : 12,201
+row 18 : 8,291
+row 19 : 24,279
+row 20 : 13,456
+row 21 : 8,559
+row 22 : 7,097
+","['f_sort_by', ['Votes']]",f_select_column(['Votes']) -> f_sort_by(['Votes']) -> 
+csv/204-csv/786.csv,who received the least amount of votes?,Karen Olsson,2,"col : Votes
+row 1 : 8,559
+row 2 : 8,559
+row 3 : 8,291
+row 4 : 8,291
+row 5 : 7,660
+row 6 : 7,660
+row 7 : 7,659
+row 8 : 7,659
+row 9 : 7,097
+row 10 : 7,097
+row 11 : 4,874
+row 12 : 4,874
+row 13 : 24,279
+row 14 : 24,279
+row 15 : 19,252
+row 16 : 19,252
+row 17 : 13,456
+row 18 : 13,456
+row 19 : 12,793
+row 20 : 12,793
+row 21 : 12,201
+row 22 : 12,201
+","['f_select_row', ['row 11', 'row 12']]","f_select_column(['Votes']) -> f_sort_by(['Votes']) -> f_select_row(['row 11', 'row 12']) -> "
+csv/204-csv/335.csv,did jim osborne win any titles at least once on a grass court?,yes,,,,
+csv/203-csv/823.csv,"which model has a thrust of at least 12,000 kg?",AL-31,,,,
+csv/204-csv/482.csv,are there at least 2 nationalities on the chart?,yes,,,,
+csv/203-csv/770.csv,"at least of 50% of the population is protestant, starting at which age range?",60 to 64,0,"col : Ages attained (years) | Catholic | Protestant and other Christian | Other Religion | None or not stated
+row 1 : 0 to 4 | 44.3% | 31.7% | 0.9% | 23.2%
+row 2 : 5 to 9 | 45.5% | 36.1% | 0.7% | 17.7%
+row 3 : 10 to 14 | 45.9% | 37.9% | 0.6% | 15.6%
+row 4 : 15 to 19 | 44.8% | 37.6% | 0.6% | 17.0%
+row 5 : 20 to 24 | 43.4% | 35.2% | 0.7% | 20.7%
+row 6 : 25 to 29 | 44.8% | 33.1% | 1.1% | 21.0%
+row 7 : 30 to 34 | 44.0% | 34.3% | 1.4% | 20.3%
+row 8 : 35 to 39 | 41.5% | 37.8% | 1.2% | 19.5%
+row 9 : 40 to 44 | 40.4% | 41.1% | 0.9% | 17.7%
+row 10 : 45 to 49 | 40.0% | 42.8% | 0.8% | 16.3%
+row 11 : 50 to 54 | 39.2% | 44.9% | 0.7% | 15.1%
+row 12 : 55 to 59 | 38.1% | 46.5% | 0.8% | 14.6%
+row 13 : 60 to 64 | 35.8% | 50.0% | 0.7% | 13.4%
+row 14 : 65 to 69 | 33.7% | 54.4% | 0.7% | 11.2%
+row 15 : 70 to 74 | 32.9% | 56.4% | 0.7% | 10.1%
+row 16 : 75 to 79 | 32.0% | 58.1% | 0.6% | 9.3%
+row 17 : 80 to 84 | 30.0% | 60.0% | 0.6% | 9.3%
+row 18 : 85 to 89 | 28.1% | 61.8% | 0.5% | 9.6%
+row 19 : 90 and over | 25.8% | 64.0% | 0.5% | 9.6%
+","['f_select_column', ['Ages attained (years)', 'Protestant and other Christian']]","f_select_column(['Ages attained (years)', 'Protestant and other Christian']) -> "
+csv/203-csv/770.csv,"at least of 50% of the population is protestant, starting at which age range?",60 to 64,1,"col : Ages attained (years) | Protestant and other Christian
+row 1 : 0 to 4 | 31.7%
+row 2 : 5 to 9 | 36.1%
+row 3 : 10 to 14 | 37.9%
+row 4 : 15 to 19 | 37.6%
+row 5 : 20 to 24 | 35.2%
+row 6 : 25 to 29 | 33.1%
+row 7 : 30 to 34 | 34.3%
+row 8 : 35 to 39 | 37.8%
+row 9 : 40 to 44 | 41.1%
+row 10 : 45 to 49 | 42.8%
+row 11 : 50 to 54 | 44.9%
+row 12 : 55 to 59 | 46.5%
+row 13 : 60 to 64 | 50.0%
+row 14 : 65 to 69 | 54.4%
+row 15 : 70 to 74 | 56.4%
+row 16 : 75 to 79 | 58.1%
+row 17 : 80 to 84 | 60.0%
+row 18 : 85 to 89 | 61.8%
+row 19 : 90 and over | 64.0%
+","['f_sort_by', ['Protestant and other Christian']]","f_select_column(['Ages attained (years)', 'Protestant and other Christian']) -> f_sort_by(['Protestant and other Christian']) -> "
+csv/203-csv/770.csv,"at least of 50% of the population is protestant, starting at which age range?",60 to 64,2,"col : Ages attained (years) | Protestant and other Christian
+row 1 : 90 and over | 64.0%
+row 2 : 85 to 89 | 61.8%
+row 3 : 80 to 84 | 60.0%
+row 4 : 75 to 79 | 58.1%
+row 5 : 70 to 74 | 56.4%
+row 6 : 65 to 69 | 54.4%
+row 7 : 60 to 64 | 50.0%
+row 8 : 55 to 59 | 46.5%
+row 9 : 50 to 54 | 44.9%
+row 10 : 45 to 49 | 42.8%
+row 11 : 40 to 44 | 41.1%
+row 12 : 10 to 14 | 37.9%
+row 13 : 35 to 39 | 37.8%
+row 14 : 15 to 19 | 37.6%
+row 15 : 5 to 9 | 36.1%
+row 16 : 20 to 24 | 35.2%
+row 17 : 30 to 34 | 34.3%
+row 18 : 25 to 29 | 33.1%
+row 19 : 0 to 4 | 31.7%
+","['f_select_row', ['row 7']]","f_select_column(['Ages attained (years)', 'Protestant and other Christian']) -> f_sort_by(['Protestant and other Christian']) -> f_select_row(['row 7']) -> "
+csv/204-csv/600.csv,which area has the least number of residents?,Ince Blundell,0,"col : Name | Status | Population | District | Former local authority
+row 1 : Cronton | Civil parish | 1,379 | Knowsley | Whiston\nRural District
+row 2 : Halewood | Town | 20,309 | Knowsley | Whiston\nRural District
+row 3 : Huyton with Roby | Unparished area | 49,859 | Knowsley | Huyton with Roby\nUrban District
+row 4 : Kirkby | Unparished area | 40,374 | Knowsley | Kirkby\nUrban District
+row 5 : Knowsley | Civil parish | 11,343 | Knowsley | Whiston\nRural District
+row 6 : Prescot | Town | 11,184 | Knowsley | Prescot\nUrban District
+row 7 : Tarbock | Civil parish | 2,382 | Knowsley | Whiston\nRural District
+row 8 : Whiston | Town | 13,629 | Knowsley | Whiston\nRural District
+row 9 : Liverpool | Unparished area | 439,473 | Liverpool | Liverpool\nCounty Borough
+row 10 : Aintree Village | Civil parish | 7,126 | Sefton | West Lancashire\nRural District
+row 11 : Bootle | Unparished area | 59,011 | Sefton | Bootle\nCounty Borough
+row 12 : Crosby | Unparished area | 45,872 | Sefton | Crosby\nMunicipal Borough
+row 13 : Formby | Civil parish | 23,586 | Sefton | Formby\nUrban District
+row 14 : Hightown | Civil parish | 2,247 | Sefton | Crosby\nMunicipal Borough
+row 15 : Ince Blundell | Civil parish | 518 | Sefton | West Lancashire\nRural District
+row 16 : Litherland | Unparished area | 18,629 | Sefton | Litherland\nUrban District
+row 17 : Little Altcar | Civil parish | 892 | Sefton | West Lancashire\nRural District
+row 18 : Lydiate | Civil parish | 6,672 | Sefton | West Lancashire\nRural District
+row 19 : Maghull | Town | 22,225 | Sefton | West Lancashire\nRural District
+row 20 : Melling | Civil parish | 2,810 | Sefton | West Lancashire\nRural District
+row 21 : Sefton | Civil parish | 772 | Sefton | West Lancashire\nRural District
+row 22 : Southport | Unparished area | 90,336 | Sefton | Southport\nCounty Borough
+row 23 : Thornton | Civil parish | 2,262 | Sefton | West Lancashire\nRural District
+row 24 : Billinge Chapel End | Civil parish | 6,554 | St Helens | Billinge and Winstanley\nUrban District
+row 25 : Bold | Civil parish | 2,283 | St Helens | Whiston\nRural District
+row 26 : Eccleston | Civil parish | 10,528 | St Helens | Whiston\nRural District
+row 27 : Haydock | Unparished area | 15,684 | St Helens | Haydock\nUrban District
+row 28 : Newton le Willows | Unparished area | 21,418 | St Helens | Newton le Willows\nUrban District
+row 29 : Rainford | Civil parish | 8,344 | St Helens | Rainford\nUrban District
+row 30 : Rainhill | Civil parish | 11,913 | St Helens | Whiston\nRural District
+row 31 : Seneley Green | Civil parish | 6,163 | St Helens | Ashton in Makerfield\nUrban District
+row 32 : St Helens | Unparished area | 91,414 | St Helens | St Helens\nCounty Borough
+row 33 : Windle | Civil parish | 2,542 | St Helens | Whiston\nRural District
+row 34 : Bebington | Unparished area | 58,226 | Wirral | Bebington\nMunicipal Borough
+row 35 : Birkenhead | Unparished area | 103,206 | Wirral | Birkenhead\nCounty Borough
+row 36 : Heswall | Unparished area | 29,977 | Wirral | Wirral\nUrban District
+row 37 : Hoylake | Unparished area | 35,655 | Wirral | Hoylake\nUrban District
+row 38 : Wallasey | Unparished area | 84,348 | Wirral | Wallasey\nCounty Borough
+","['f_sort_by', ['Population']]",f_sort_by(['Population']) -> 
+csv/203-csv/375.csv,what is the pylon with the least height listed here?,Eibsee Aerial Tramway,0,"col : Name | Year built | Country | Town | Height | Remarks
+row 1 : Glacial Aerial Tramway Kaprun III | 1966 | Austria | Kaprun | 113.6 m | The tallest pylon is on the third section
+row 2 : Mississippi Aerial River Transit | 1984 | USA | New Orleans | 109 m | The tallest pylon on a gondola lift; on 87 m pile foundations; demolished 1994
+row 3 : Torre Jaume I | 1931 | Spain | Barcelona | 107 m | Intermediate stop of the harbour aerial tramway, also observation tower
+row 4 : Gant Hohtaelli aerial tramway | nan | Switzerland | Zermatt | 94 m | One pylon
+row 5 : London Emirates Air Line | Early 2012 | UK | London | 88 m | North Main Tower. River Thames aerial crossing between Greenwich Peninsular and Royal Docks
+row 6 : Singapore cable car | 1972 | Singapore | Singapore | 88 m | Pylon I
+row 7 : Eibsee Aerial Tramway | 1962 | Germany | Garmisch-Partenkirchen | 85 m | Pylon II
+row 8 : Nizhny Novgorod Volga Aerial Tramway, Tower 4 & 5 | 2012 | Russia | Nizhny Novgorod | 82 m | nan
+row 9 : Mittersill goods aerial tramway | 194? | Austria | Mittersill | 80 m | Two pylons for a tramway that never went in service and was demolished in the 1950s. One of the pylons was built of timber, the other of steel.
+row 10 : Singapore cable car | 1972 | Singapore | Singapore | 80 m | Pylon II
+row 11 : 3S Aerial Tramway | 2004 | Austria | Kitzbühel | 80 m | One pylon
+row 12 : Torre Sant Sebastia | 1931 | Spain | Barcelona | 78 m | Terminal of harbour aerial tramway
+row 13 : Roosevelt Island Tramway | 1976 | USA | New York City | 76 m | Central pylon of commuter tramway
+row 14 : Wendelstein Aerial Tramway | 1970 | Germany | Bayerischzell-Osterhofen | 75 m | nan
+row 15 : Vinpearl Cable Car | 2007 | Vietnam | Nha Trang | 75 m | 7 pylons standing in the sea. Total height from sea bed is 115 m
+row 16 : Sandia Peak Tramway | 1965 | USA | Albuquerque | 70.7 m | Pylon 1, inclined at an angle of 18 degrees
+row 17 : Eibsee Aerial Tramway | 1962 | Germany | Garmisch-Partenkirchen | 65 m | Pylon I
+","['f_sort_by', ['Height']]",f_sort_by(['Height']) -> 
+csv/203-csv/375.csv,what is the pylon with the least height listed here?,Eibsee Aerial Tramway,1,"col : Name | Year built | Country | Town | Height | Remarks
+row 1 : Gant Hohtaelli aerial tramway | nan | Switzerland | Zermatt | 94 m | One pylon
+row 2 : London Emirates Air Line | Early 2012 | UK | London | 88 m | North Main Tower. River Thames aerial crossing between Greenwich Peninsular and Royal Docks
+row 3 : Singapore cable car | 1972 | Singapore | Singapore | 88 m | Pylon I
+row 4 : Eibsee Aerial Tramway | 1962 | Germany | Garmisch-Partenkirchen | 85 m | Pylon II
+row 5 : Nizhny Novgorod Volga Aerial Tramway, Tower 4 & 5 | 2012 | Russia | Nizhny Novgorod | 82 m | nan
+row 6 : Mittersill goods aerial tramway | 194? | Austria | Mittersill | 80 m | Two pylons for a tramway that never went in service and was demolished in the 1950s. One of the pylons was built of timber, the other of steel.
+row 7 : Singapore cable car | 1972 | Singapore | Singapore | 80 m | Pylon II
+row 8 : 3S Aerial Tramway | 2004 | Austria | Kitzbühel | 80 m | One pylon
+row 9 : Torre Sant Sebastia | 1931 | Spain | Barcelona | 78 m | Terminal of harbour aerial tramway
+row 10 : Roosevelt Island Tramway | 1976 | USA | New York City | 76 m | Central pylon of commuter tramway
+row 11 : Wendelstein Aerial Tramway | 1970 | Germany | Bayerischzell-Osterhofen | 75 m | nan
+row 12 : Vinpearl Cable Car | 2007 | Vietnam | Nha Trang | 75 m | 7 pylons standing in the sea. Total height from sea bed is 115 m
+row 13 : Sandia Peak Tramway | 1965 | USA | Albuquerque | 70.7 m | Pylon 1, inclined at an angle of 18 degrees
+row 14 : Eibsee Aerial Tramway | 1962 | Germany | Garmisch-Partenkirchen | 65 m | Pylon I
+row 15 : Glacial Aerial Tramway Kaprun III | 1966 | Austria | Kaprun | 113.6 m | The tallest pylon is on the third section
+row 16 : Mississippi Aerial River Transit | 1984 | USA | New Orleans | 109 m | The tallest pylon on a gondola lift; on 87 m pile foundations; demolished 1994
+row 17 : Torre Jaume I | 1931 | Spain | Barcelona | 107 m | Intermediate stop of the harbour aerial tramway, also observation tower
+","['f_select_row', ['row 14']]",f_sort_by(['Height']) -> f_select_row(['row 14']) -> 
+csv/203-csv/615.csv,which candidate had the least votes by percentage?,Benjamin J. Spang,,,,
+csv/204-csv/514.csv,how many of these attacks lasted at least 2 days?,5,,,,
+csv/203-csv/835.csv,in how many seasons were there at least 20 goals scored?,4,0,"col : Season | Club | Country | Competition | Apps. | Goals
+row 1 : 1997/98 | Rapide Club Lebbeke | Belgium | Fourth Division | – | –
+row 2 : 1998/99 | KSC Eendracht Aalst | Belgium | Jupiler League | 30 | 7
+row 3 : 1999/00 | KSC Eendracht Aalst | Belgium | Jupiler League | 31 | 7
+row 4 : 2000/01 | KSC Eendracht Aalst | Belgium | Jupiler League | 30 | 6
+row 5 : 2001/02 | Omonia Nicosia | Cyprus | Cypriot First Division | 22 | 8
+row 6 : 2002/03 | FC Denderleeuw | Belgium | Belgian Second Division | 32 | 23
+row 7 : 2003/04 | 1. FC Saarbrücken | Germany | Regionalliga Süd | 33 | 16
+row 8 : 2004/05 | 1. FC Saarbrücken | Germany | 2. Bundesliga | 14 | 7
+row 9 : 2005/06 | 1. FC Saarbrücken | Germany | 2. Bundesliga | 10 | 0
+row 10 : 2005/06 | S.V. Zulte Waregem | Belgium | Jupiler League | 14 | 1
+row 11 : 2006/07 | FCV Dender EH | Belgium | Belgian Second Division | 33 | 21
+row 12 : 2007/08 | MVV | Netherlands | Eerste divisie | 33 | 22
+row 13 : 2008/09 | MVV | Netherlands | Eerste divisie | 32 | 20
+row 14 : Total | Last Updated | 8 July 2009 | nan | 302 | 132
+","['f_select_column', ['Goals']]",f_select_column(['Goals']) -> 
+csv/203-csv/835.csv,in how many seasons were there at least 20 goals scored?,4,1,"col : Goals
+row 1 : –
+row 2 : 7
+row 3 : 7
+row 4 : 6
+row 5 : 8
+row 6 : 23
+row 7 : 16
+row 8 : 7
+row 9 : 0
+row 10 : 1
+row 11 : 21
+row 12 : 22
+row 13 : 20
+row 14 : 132
+","['f_sort_by', ['Goals']]",f_select_column(['Goals']) -> f_sort_by(['Goals']) -> 
+csv/203-csv/835.csv,in how many seasons were there at least 20 goals scored?,4,2,"col : Goals
+row 1 : –
+row 2 : 8
+row 3 : 7
+row 4 : 7
+row 5 : 7
+row 6 : 6
+row 7 : 23
+row 8 : 22
+row 9 : 21
+row 10 : 20
+row 11 : 16
+row 12 : 132
+row 13 : 1
+row 14 : 0
+","['f_select_row', ['row 7', 'row 8', 'row 9', 'row 10']]","f_select_column(['Goals']) -> f_sort_by(['Goals']) -> f_select_row(['row 7', 'row 8', 'row 9', 'row 10']) -> "
+csv/204-csv/63.csv,which winning team won the least?,Bertram Schäfer Racing,,,,
+csv/204-csv/185.csv,there is at least how many locations?,7,0,"col : Location | Town | Output (MW AC) | Modules | Number of arrays
+row 1 : H. Lee Dennison Building | Hauppauge | 1.75 | 7,737 | 24
+row 2 : North County Complex | Hauppauge | 0.5 | 3,431 | 9
+row 3 : Cohalan Court Complex | Central Islip | 3.5 | 15,113 | 27
+row 4 : Riverhead County Center | Riverside | 3.0 | 11,536 | 31
+row 5 : Brentwood LIRR Parking Lot | Brentwood | 1.0 | 3,924 | 11
+row 6 : Deer Park LIRR Parking Lot | Deer Park | 2.25 | 3,924 | 39
+row 7 : Ronkonkoma LIRR Parking Lot (south) | Ronkonkoma | 5.0 | 20,110 | 44
+","['f_select_column', ['Location']]",f_select_column(['Location']) -> 
+csv/203-csv/756.csv,role played at least twice,Ah Sa,0,"col : Year | Title | Role | Network | Notes
+row 1 : 2000 | Youth Y2K\n青春@Y2K | Cheng Shasha | nan | nan
+row 2 : 2001 | The Monkey King: Quest for the Sutra\n齊天大聖孫悟空 | Purple Orchid | TVB | nan
+row 3 : 2001 | 藍寶石的夜空 | Shek Po-yi | TVB | Eason Chan's music video
+row 4 : 2002 | 一Twins零一夜 | Ah Sa | TVB | Music video
+row 5 : 2003 | Triumph in the Skies\n衝上雲霄 | Charlene | TVB | Cameo
+row 6 : 2003 | All About Boy'z\n一起喝采 | Langlang Princess | now.com.hk | Appearance in episode 2
+row 7 : 2003 | 2半3更之困車立 | Ah Sa | now.com.hk | nan
+row 8 : 2003 | 愛在陽光下 | AIDS patient | nan | Music video produced to support the global anti-AIDS campaign
+row 9 : 2004 | Kung Fu Soccer\n功夫足球 | nan | TVB | Guest star
+row 10 : 2004 | Sunshine Heartbeat\n赤沙印記@四葉草.2 | Ah Sa | TVB | Guest star
+row 11 : 2004 | 家有寶貝 | Ah Sa | nan | Guest star
+row 12 : 2007 | Colours of Love\n森之愛情 | Wai-fong / Ching-lan | TVB | nan
+row 13 : 2007 | Life Off Stage | nan | nan | nan
+row 14 : 2010 | Calling for Love!\n呼叫大明星 | Chen Dexin | CTS | nan
+row 15 : 2011 | The Legend of Swordman\n劍俠情緣 | Tang Xiaowan / Ning Xin | nan | nan
+row 16 : 2012 | Happy Marshal\n歡樂元帥 | Little Dragon Girl (Xiao Long Nu) | nan | nan
+","['f_group_by', ['Role']]",f_group_by(['Role']) -> 
+csv/203-csv/756.csv,role played at least twice,Ah Sa,1,"col : Year | Title | Network | Notes
+row 1 : 1 | 1 | 0 | 1
+row 2 : 4 | 4 | 3 | 3
+row 3 : 1 | 1 | 1 | 1
+row 4 : 1 | 1 | 1 | 0
+row 5 : 1 | 1 | 0 | 0
+row 6 : 1 | 1 | 1 | 1
+row 7 : 1 | 1 | 0 | 0
+row 8 : 1 | 1 | 1 | 0
+row 9 : 1 | 1 | 1 | 1
+row 10 : 1 | 1 | 0 | 0
+row 11 : 1 | 1 | 1 | 0
+","['f_sort_by', ['Title']]",f_group_by(['Role']) -> f_sort_by(['Title']) -> 
+csv/201-csv/19.csv,which is the least successful film?,The Train,0,"col : Rank | Title | Studio | Director | Actors | Gross
+row 1 : 1.0 | The Sound of Music* | 20th Century Fox | Robert Wise | Julie Andrews, Christopher Plummer, Charmian Carr, Nicholas Hammond, Heather Menzies, Duane Chase, Angela Cartwright, Debbie Turner, Kym Karath, Richard Haydn, Peggy Wood, Eleanor Parker, Anna Lee, Portia Nelson, Marni Nixon, Daniel Truhitte, Ben Wright | $163,214,286
+row 2 : 2.0 | Doctor Zhivago* | Metro-Goldwyn-Mayer | David Lean | Omar Sharif, Julie Christie, Rod Steiger, Geraldine Chaplin, Alec Guinness, Ralph Richardson, Tom Courtenay, Siobhan McKenna, Rita Tushingham | $111,721,910
+row 3 : 3.0 | Thunderball | United Artists | Terence Young | Sean Connery, Claudine Auger, Adolfo Celi, Luciana Paluzzi, Rik Van Nutter, Desmond Llewelyn, Bernard Lee | $63,595,658
+row 4 : 4.0 | Those Magnificent Men in their Flying Machines | 20th Century Fox | Ken Annakin | Stuart Whitman, Sarah Miles, James Fox, Terry-Thomas, Robert Morley, Alberto Sordi, Gert Fröbe, Jean-Pierre Cassel, Irina Demick, Red Skelton, Yujiro Ishihara, Karl Michael Vogler, Dame Flora Robson, Sam Wanamaker, Gordon Jackson | $31,111,111
+row 5 : 5.0 | That Darn Cat! | Walt Disney Productions | Robert Stevenson | Hayley Mills, Dean Jones, Dorothy Provine, Roddy McDowell, Neville Brand, Frank Gorshin, Grayson Hall, Elsa Lanchester, William Demarest, Ed Wynn | $28,068,222
+row 6 : 6.0 | The Great Race | Warner Bros. Pictures | Blake Edwards | Tony Curtis, Jack Lemmon, Natalie Wood, Peter Falk, Keenan Wynn, Larry Storch, Dorothy Provine, Arthur O'Connell, Vivian Vance, Ross Martin, George Macready | $25,333,333
+row 7 : 7.0 | Cat Ballou | Columbia Pictures | Elliot Silverstein | Jane Fonda, Lee Marvin, Michael Callan, Dwayne Hickman, Nat King Cole, Stubby Kaye | $20,666,667
+row 8 : 8.0 | What's New Pussycat? | United Artists | Clive Donner | Peter Sellers, Peter O'Toole, Ursula Andress, Romy Schneider, Capucine, Woody Allen, Paula Prentiss | $18,820,000
+row 9 : 9.0 | Shenandoah | Universal Pictures | Andrew V. McLaglen | James Stewart, Doug McClure, Glenn Corbett, Patrick Wayne, Katharine Ross, Rosemary Forsyth | $17,268,889
+row 10 : 10.0 | Von Ryan's Express | 20th Century Fox | Mark Robson | Frank Sinatra, Trevor Howard, Raffaella Carrà, Brad Dexter, Sergio Fantoni, John Leyton, Edward Mulhare, Wolfgang Preiss, James Brolin, John van Dreelen, Adolfo Celi | $17,111,111
+row 11 : 11.0 | The Greatest Story Ever Told | United Artists | George Stevens | Max von Sydow, Jose Ferrer, Van Heflin, Charlton Heston, David McCallum, Roddy McDowell, Dorothy McGuire, Sal Mineo, Donald Pleasence, Sidney Poitier, Claude Rains, Telly Savalas, John Wayne, Shelley Winters, Ed Wynn, Carroll Baker, Martin Landau, Angela Lansbury | $15,473,333
+row 12 : 12.0 | For a Few Dollars More | United Artists | Sergio Leone | Clint Eastwood, Lee Van Cleef, Gian Maria Volonté, Mario Brega, Luigi Pistilli, Aldo Sambrell, Klaus Kinski | $15,000,000
+row 13 : 13.0 | The Sandpiper | Metro-Goldwyn-Mayer | Vincente Minnelli | Elizabeth Taylor, Richard Burton, Eva Marie Saint, Charles Bronson, Robert Webber | $13,691,111
+row 14 : 14.0 | A Patch of Blue | Metro-Goldwyn-Mayer | Guy Green | Sidney Poitier, Shelley Winters, Elizabeth Hartman, Wallace Ford, Ivan Dixon | $13,500,000
+row 15 : 15.0 | The Sons of Katie Elder | Paramount Pictures | Henry Hathaway | John Wayne, Dean Martin, Martha Hyer, Michael Anderson, Jr., Earl Holliman, Jeremy Slate, George Kennedy, Dennis Hopper | $13,333,333
+row 16 : 16.0 | Help! | United Artists | Richard Lester | John Lennon, Paul McCartney, George Harrison, Ringo Starr, Leo McKern, Eleanor Bron, John Bluthal | $12,066,667
+row 17 : 17.0 | How to Murder Your Wife | United Artists | Richard Quine | Jack Lemmon, Virna Lisi, Terry-Thomas, Claire Trevor | $12,000,000
+row 18 : 18.0 | Darling | Embassy Pictures | John Schlesinger | Julie Christie, Laurence Harvey, Dirk Bogarde, José Luis de Vilallonga, Roland Curram, Basil Henson | $12,000,000
+row 19 : 19.0 | The Agony and the Ecstasy | 20th Century Fox | Carol Reed | Charlton Heston, Rex Harrison, Diane Cilento, Harry Andrews, Alberto Lupo, Adolfo Celi, Venantino Venantini | $8,000,000
+row 20 : 20.0 | Do Not Disturb | 20th Century Fox | Ralph Levy, George Marshall | Doris Day, Rod Taylor, Hermione Baddeley, Sergio Fantoni, Reginald Gardiner | $8,000,000
+row 21 : 21.0 | The Spy Who Came in from the Cold | Paramount | Martin Ritt | Richard Burton, Claire Bloom, Oskar Werner, Sam Wanamaker | $7,600,000
+row 22 : 22.0 | Ship of Fools | Columbia | Stanley Kramer | Vivien Leigh, Simone Signoret, Oskar Werner, Lee Marvin, Elizabeth Ashley, George Segal, José Greco, Michael Dunn | $7,000,000
+row 23 : 23.0 | The Collector | Columbia | William Wyler | Terence Stamp, Samantha Eggar, Mona Washbourne | $7,000,000
+row 24 : 24.0 | The Train | United Artists | John Frankenheimer | Burt Lancaster, Paul Scofield, Jeanne Moreau, Michel Simon | $6,800,000
+","['f_sort_by', ['Gross']]",f_sort_by(['Gross']) -> 
+csv/201-csv/19.csv,which is the least successful film?,The Train,1,"col : Rank | Title | Studio | Director | Actors | Gross
+row 1 : 19.0 | The Agony and the Ecstasy | 20th Century Fox | Carol Reed | Charlton Heston, Rex Harrison, Diane Cilento, Harry Andrews, Alberto Lupo, Adolfo Celi, Venantino Venantini | $8,000,000
+row 2 : 20.0 | Do Not Disturb | 20th Century Fox | Ralph Levy, George Marshall | Doris Day, Rod Taylor, Hermione Baddeley, Sergio Fantoni, Reginald Gardiner | $8,000,000
+row 3 : 21.0 | The Spy Who Came in from the Cold | Paramount | Martin Ritt | Richard Burton, Claire Bloom, Oskar Werner, Sam Wanamaker | $7,600,000
+row 4 : 23.0 | The Collector | Columbia | William Wyler | Terence Stamp, Samantha Eggar, Mona Washbourne | $7,000,000
+row 5 : 22.0 | Ship of Fools | Columbia | Stanley Kramer | Vivien Leigh, Simone Signoret, Oskar Werner, Lee Marvin, Elizabeth Ashley, George Segal, José Greco, Michael Dunn | $7,000,000
+row 6 : 3.0 | Thunderball | United Artists | Terence Young | Sean Connery, Claudine Auger, Adolfo Celi, Luciana Paluzzi, Rik Van Nutter, Desmond Llewelyn, Bernard Lee | $63,595,658
+row 7 : 24.0 | The Train | United Artists | John Frankenheimer | Burt Lancaster, Paul Scofield, Jeanne Moreau, Michel Simon | $6,800,000
+row 8 : 4.0 | Those Magnificent Men in their Flying Machines | 20th Century Fox | Ken Annakin | Stuart Whitman, Sarah Miles, James Fox, Terry-Thomas, Robert Morley, Alberto Sordi, Gert Fröbe, Jean-Pierre Cassel, Irina Demick, Red Skelton, Yujiro Ishihara, Karl Michael Vogler, Dame Flora Robson, Sam Wanamaker, Gordon Jackson | $31,111,111
+row 9 : 5.0 | That Darn Cat! | Walt Disney Productions | Robert Stevenson | Hayley Mills, Dean Jones, Dorothy Provine, Roddy McDowell, Neville Brand, Frank Gorshin, Grayson Hall, Elsa Lanchester, William Demarest, Ed Wynn | $28,068,222
+row 10 : 6.0 | The Great Race | Warner Bros. Pictures | Blake Edwards | Tony Curtis, Jack Lemmon, Natalie Wood, Peter Falk, Keenan Wynn, Larry Storch, Dorothy Provine, Arthur O'Connell, Vivian Vance, Ross Martin, George Macready | $25,333,333
+row 11 : 7.0 | Cat Ballou | Columbia Pictures | Elliot Silverstein | Jane Fonda, Lee Marvin, Michael Callan, Dwayne Hickman, Nat King Cole, Stubby Kaye | $20,666,667
+row 12 : 8.0 | What's New Pussycat? | United Artists | Clive Donner | Peter Sellers, Peter O'Toole, Ursula Andress, Romy Schneider, Capucine, Woody Allen, Paula Prentiss | $18,820,000
+row 13 : 9.0 | Shenandoah | Universal Pictures | Andrew V. McLaglen | James Stewart, Doug McClure, Glenn Corbett, Patrick Wayne, Katharine Ross, Rosemary Forsyth | $17,268,889
+row 14 : 10.0 | Von Ryan's Express | 20th Century Fox | Mark Robson | Frank Sinatra, Trevor Howard, Raffaella Carrà, Brad Dexter, Sergio Fantoni, John Leyton, Edward Mulhare, Wolfgang Preiss, James Brolin, John van Dreelen, Adolfo Celi | $17,111,111
+row 15 : 1.0 | The Sound of Music* | 20th Century Fox | Robert Wise | Julie Andrews, Christopher Plummer, Charmian Carr, Nicholas Hammond, Heather Menzies, Duane Chase, Angela Cartwright, Debbie Turner, Kym Karath, Richard Haydn, Peggy Wood, Eleanor Parker, Anna Lee, Portia Nelson, Marni Nixon, Daniel Truhitte, Ben Wright | $163,214,286
+row 16 : 11.0 | The Greatest Story Ever Told | United Artists | George Stevens | Max von Sydow, Jose Ferrer, Van Heflin, Charlton Heston, David McCallum, Roddy McDowell, Dorothy McGuire, Sal Mineo, Donald Pleasence, Sidney Poitier, Claude Rains, Telly Savalas, John Wayne, Shelley Winters, Ed Wynn, Carroll Baker, Martin Landau, Angela Lansbury | $15,473,333
+row 17 : 12.0 | For a Few Dollars More | United Artists | Sergio Leone | Clint Eastwood, Lee Van Cleef, Gian Maria Volonté, Mario Brega, Luigi Pistilli, Aldo Sambrell, Klaus Kinski | $15,000,000
+row 18 : 13.0 | The Sandpiper | Metro-Goldwyn-Mayer | Vincente Minnelli | Elizabeth Taylor, Richard Burton, Eva Marie Saint, Charles Bronson, Robert Webber | $13,691,111
+row 19 : 14.0 | A Patch of Blue | Metro-Goldwyn-Mayer | Guy Green | Sidney Poitier, Shelley Winters, Elizabeth Hartman, Wallace Ford, Ivan Dixon | $13,500,000
+row 20 : 15.0 | The Sons of Katie Elder | Paramount Pictures | Henry Hathaway | John Wayne, Dean Martin, Martha Hyer, Michael Anderson, Jr., Earl Holliman, Jeremy Slate, George Kennedy, Dennis Hopper | $13,333,333
+row 21 : 16.0 | Help! | United Artists | Richard Lester | John Lennon, Paul McCartney, George Harrison, Ringo Starr, Leo McKern, Eleanor Bron, John Bluthal | $12,066,667
+row 22 : 17.0 | How to Murder Your Wife | United Artists | Richard Quine | Jack Lemmon, Virna Lisi, Terry-Thomas, Claire Trevor | $12,000,000
+row 23 : 18.0 | Darling | Embassy Pictures | John Schlesinger | Julie Christie, Laurence Harvey, Dirk Bogarde, José Luis de Vilallonga, Roland Curram, Basil Henson | $12,000,000
+row 24 : 2.0 | Doctor Zhivago* | Metro-Goldwyn-Mayer | David Lean | Omar Sharif, Julie Christie, Rod Steiger, Geraldine Chaplin, Alec Guinness, Ralph Richardson, Tom Courtenay, Siobhan McKenna, Rita Tushingham | $111,721,910
+","['f_select_row', ['row 7']]",f_sort_by(['Gross']) -> f_select_row(['row 7']) -> 
+csv/204-csv/396.csv,which african country has the least champion golfers according to this table?,Zimbabwe,0,"col : Country | Masters | U.S. Open | The Open | PGA | Total
+row 1 : United States | 57 | 80 | 42 | 79 | 258
+row 2 : Scotland | 1 | 12 | 41 | 0 | 54
+row 3 : England | 3 | 8 | 22 | 2 | 35
+row 4 : South Africa | 5 | 5 | 10 | 2 | 22
+row 5 : Australia | 1 | 2 | 9 | 4 | 16
+row 6 : Jersey | 0 | 2 | 7 | 0 | 9
+row 7 : Spain | 4 | 0 | 3 | 0 | 7
+row 8 : Northern Ireland | 0 | 2 | 2 | 1 | 5
+row 9 : Argentina | 1 | 1 | 1 | 0 | 3
+row 10 : Fiji | 1 | 0 | 0 | 2 | 3
+row 11 : Germany | 2 | 0 | 0 | 1 | 3
+row 12 : Ireland | 0 | 0 | 2 | 1 | 3
+row 13 : Zimbabwe | 0 | 0 | 1 | 2 | 3
+row 14 : New Zealand | 0 | 1 | 1 | 0 | 2
+row 15 : Canada | 1 | 0 | 0 | 0 | 1
+row 16 : France | 0 | 0 | 1 | 0 | 1
+row 17 : South Korea | 0 | 0 | 0 | 1 | 1
+row 18 : Wales | 1 | 0 | 0 | 0 | 1
+","['f_select_row', ['row 13']]",f_select_row(['row 13']) -> 
+csv/204-csv/185.csv,which project location has the lowest outupt?,North County Complex,0,"col : Location | Town | Output (MW AC) | Modules | Number of arrays
+row 1 : H. Lee Dennison Building | Hauppauge | 1.75 | 7,737 | 24
+row 2 : North County Complex | Hauppauge | 0.5 | 3,431 | 9
+row 3 : Cohalan Court Complex | Central Islip | 3.5 | 15,113 | 27
+row 4 : Riverhead County Center | Riverside | 3.0 | 11,536 | 31
+row 5 : Brentwood LIRR Parking Lot | Brentwood | 1.0 | 3,924 | 11
+row 6 : Deer Park LIRR Parking Lot | Deer Park | 2.25 | 3,924 | 39
+row 7 : Ronkonkoma LIRR Parking Lot (south) | Ronkonkoma | 5.0 | 20,110 | 44
+","['f_select_column', ['Location', 'Output (MW AC)']]","f_select_column(['Location', 'Output (MW AC)']) -> "
+csv/204-csv/185.csv,which project location has the lowest outupt?,North County Complex,1,"col : Location | Output (MW AC)
+row 1 : H. Lee Dennison Building | 1.75
+row 2 : North County Complex | 0.5
+row 3 : Cohalan Court Complex | 3.5
+row 4 : Riverhead County Center | 3.0
+row 5 : Brentwood LIRR Parking Lot | 1.0
+row 6 : Deer Park LIRR Parking Lot | 2.25
+row 7 : Ronkonkoma LIRR Parking Lot (south) | 5.0
+","['f_sort_by', ['Output (MW AC)']]","f_select_column(['Location', 'Output (MW AC)']) -> f_sort_by(['Output (MW AC)']) -> "
+csv/204-csv/660.csv,how many counties had at least 75% of the votes for obama?,3,,,,
+csv/203-csv/74.csv,which urban area has the least people per square kilometer?,Livingston,0,"col : Rank | Urban Area | Population\n(2001 Census) | Area (km²) | Density (People/km²) | Major subdivisions | Metropolitan Area
+row 1 : 1 | Greater Glasgow | 1,168,270 | 368.47 | 3,171.0 | Glasgow, Paisley, Coatbridge, Clydebank, Motherwell, Wishaw | Glasgow
+row 2 : 2 | Edinburgh | 452,194 | 120.11 | 3,765.0 | Edinburgh, Musselburgh | Edinburgh
+row 3 : 3 | Aberdeen | 197,328 | 60.94 | 3,238 | Aberdeen, Cove Bay, Dyce | Aberdeen
+row 4 : 4 | Dundee | 154,674 | 67.0 | 3,298 | Dundee | Dundee
+row 5 : 5 | Falkirk | 91,402 | 36.1 | 2,532 | Falkirk, Grangemouth, Carron, Polmont, Stenhousemuir | Falkirk
+row 6 : 6 | East Kilbride | 73,796 | 24.12 | 3,060 | East Kilbride | Glasgow
+row 7 : 7 | Greenock | 73,595 | 20.69 | 3,557 | Greenock, Gourock, Port Glasgow | Glasgow
+row 8 : 8 | Blantyre/Hamilton | 65,874 | 22.63 | 2,911 | Blantyre, Hamilton | Glasgow
+row 9 : 9 | Ayr/Prestwick | 61,365 | 23.57 | 2,604 | Ayr, Prestwick | Ayr
+row 10 : 10 | Livingston | 59,511 | 26.07 | 2,283 | Livingston, East Calder, Mid Calder | Edinburgh
+","['f_select_column', ['Urban Area', 'Density (People/km²)']]","f_select_column(['Urban Area', 'Density (People/km²)']) -> "
+csv/203-csv/74.csv,which urban area has the least people per square kilometer?,Livingston,1,"col : Urban Area | Density (People/km²)
+row 1 : Greater Glasgow | 3,171.0
+row 2 : Edinburgh | 3,765.0
+row 3 : Aberdeen | 3,238
+row 4 : Dundee | 3,298
+row 5 : Falkirk | 2,532
+row 6 : East Kilbride | 3,060
+row 7 : Greenock | 3,557
+row 8 : Blantyre/Hamilton | 2,911
+row 9 : Ayr/Prestwick | 2,604
+row 10 : Livingston | 2,283
+","['f_sort_by', ['Density (People/km²)']]","f_select_column(['Urban Area', 'Density (People/km²)']) -> f_sort_by(['Density (People/km²)']) -> "
+csv/203-csv/134.csv,how many golfers shot at least 2 under par at the 2010 us open?,2,,,,
+csv/203-csv/362.csv,how many schools have at least 5 outright titles?,7,,,,
+csv/203-csv/362.csv,how many schools have had at least 3 share titles?,3,0,"col : School | Location | Outright Titles | Shared Titles | Runners-Up | Total Finals | Last Title | Last Final
+row 1 : Methodist College Belfast | Belfast | 35 | 2 | 25 | 62 | 2014.0 | 2014
+row 2 : Royal Belfast Academical Institution | Belfast | 29 | 4 | 21 | 54 | 2007.0 | 2013
+row 3 : Campbell College | Belfast | 23 | 4 | 12 | 39 | 2011.0 | 2011
+row 4 : Coleraine Academical Institution | Coleraine | 9 | 0 | 24 | 33 | 1992.0 | 1998
+row 5 : The Royal School, Armagh | Armagh | 9 | 0 | 3 | 12 | 2004.0 | 2004
+row 6 : Portora Royal School | Enniskillen | 6 | 1 | 5 | 12 | 1942.0 | 1942
+row 7 : Bangor Grammar School | Bangor | 5 | 0 | 4 | 9 | 1988.0 | 1995
+row 8 : Ballymena Academy | Ballymena | 3 | 0 | 6 | 9 | 2010.0 | 2010
+row 9 : Rainey Endowed School | Magherafelt | 2 | 1 | 2 | 5 | 1982.0 | 1982
+row 10 : Foyle College | Londonderry | 2 | 0 | 4 | 6 | 1915.0 | 1915
+row 11 : Belfast Royal Academy | Belfast | 1 | 3 | 5 | 9 | 1997.0 | 2010
+row 12 : Regent House Grammar School | Newtownards | 1 | 1 | 2 | 4 | 1996.0 | 2008
+row 13 : Royal School Dungannon | Dungannon | 1 | 0 | 4 | 5 | 1907.0 | 1975
+row 14 : Annadale Grammar School (now Wellington College) | Belfast | 1 | 0 | 1 | 2 | 1958.0 | 1978
+row 15 : Ballyclare High School | Ballyclare | 1 | 0 | 1 | 2 | 1973.0 | 2012
+row 16 : Belfast Boys' Model School | Belfast | 1 | 0 | 0 | 1 | 1971.0 | 1971
+row 17 : Grosvenor High School | Belfast | 1 | 0 | 0 | 1 | 1983.0 | 1983
+row 18 : Wallace High School | Lisburn | 0 | 0 | 4 | 4 | nan | 2007
+row 19 : Derry Academy | Derry | 0 | 0 | 2 | 2 | nan | 1896
+row 20 : Dalriada School | Ballymoney | 0 | 0 | 1 | 1 | nan | 1993
+row 21 : Galway Grammar School | Galway | 0 | 0 | 1 | 1 | nan | 1887
+row 22 : Lurgan College | Lurgan | 0 | 0 | 1 | 1 | nan | 1934
+row 23 : Omagh Academy | Omagh | 0 | 0 | 1 | 1 | nan | 1985
+row 24 : Sullivan Upper School | Holywood | 0 | 0 | 1 | 1 | nan | 2014
+","['f_select_column', ['Shared Titles']]",f_select_column(['Shared Titles']) -> 
+csv/203-csv/362.csv,how many schools have had at least 3 share titles?,3,1,"col : Shared Titles
+row 1 : 2
+row 2 : 4
+row 3 : 4
+row 4 : 0
+row 5 : 0
+row 6 : 1
+row 7 : 0
+row 8 : 0
+row 9 : 1
+row 10 : 0
+row 11 : 3
+row 12 : 1
+row 13 : 0
+row 14 : 0
+row 15 : 0
+row 16 : 0
+row 17 : 0
+row 18 : 0
+row 19 : 0
+row 20 : 0
+row 21 : 0
+row 22 : 0
+row 23 : 0
+row 24 : 0
+","['f_select_row', ['row 2', 'row 3']]","f_select_column(['Shared Titles']) -> f_select_row(['row 2', 'row 3']) -> "
+csv/204-csv/775.csv,how many teams won at least three bronze medals in this event?,4,,,,
+csv/203-csv/88.csv,the least amount of females,Romanian,0,"col : Language | Number | percentage (%) | males | females
+row 1 : Polish | 1 420 436 | 73.52 | 687 210 | 733 226
+row 2 : Yiddish | 317 169 | 16.41 | 154 603 | 162 566
+row 3 : Russian | 87 850 | 4.54 | 13 551 | 1 586
+row 4 : German | 77 160 | 3.99 | 37 984 | 39 176
+row 5 : Ukrainian | 15 930 | 0.82 | 15 623 | 307
+row 6 : Romanian | 2 299 | >0.01 | 2 293 | 6
+row 7 : Latvian | 1 759 | >0.01 | 1 738 | 21
+row 8 : Estonian | 1 566 | >0.01 | 1 555 | 11
+row 9 : Tatar | 1 473 | >0.01 | 1 437 | 36
+row 10 : Belarusian | 1 343 | >0.01 | 1 234 | 109
+row 11 : Other | 4 824 | 0.24 | 3 289 | 1 535
+row 12 : Persons\nthat didn't name\ntheir native language | 54 | >0.01 | 33 | 21
+row 13 : Total | 1 931 867 | 100 | 977 948 | 953 919
+","['f_select_column', ['females']]",f_select_column(['females']) -> 
+csv/203-csv/88.csv,the least amount of females,Romanian,1,"col : females
+row 1 : 733 226
+row 2 : 162 566
+row 3 : 1 586
+row 4 : 39 176
+row 5 : 307
+row 6 : 6
+row 7 : 21
+row 8 : 11
+row 9 : 36
+row 10 : 109
+row 11 : 1 535
+row 12 : 21
+row 13 : 953 919
+","['f_sort_by', ['females']]",f_select_column(['females']) -> f_sort_by(['females']) -> 
+csv/204-csv/616.csv,which township has the least land area?,Delaware,,,,
+csv/204-csv/164.csv,which of these stations broadcasts with the least power?,Mom's Radio 101.5 Tacloban,0,"col : Branding | Callsign | Frequency | Power (kW) | Location
+row 1 : Mom's Radio 97.9 Laoag | DWSN-FM | 97.9 MHz | 5 kW | Laoag
+row 2 : Mom's Radio 95.9 Naga | DZRB-FM | 95.9 MHz | 10 kW | Naga
+row 3 : Mom's Radio 90.3 Bacolod | DYCP-FM | 90.3 MHz | 5 kW | Bacolod
+row 4 : DYAP 88.3 Cebu | DYAP-FM | 88.3 MHz | 5 kW | Cebu
+row 5 : Mom's Radio 101.5 Tacloban | DYJP-FM | 101.5 MHz | 2.5 kW | Tacloban
+row 6 : Mom's Radio 101.9 Zamboanga | DXJP-FM | 101.9 MHz | 5 kW | Zamboanga
+row 7 : DXSS 97.9 Davao | DXSS | 97.9 MHz | 10 kW | Davao
+","['f_select_column', ['Branding', 'Power (kW)']]","f_select_column(['Branding', 'Power (kW)']) -> "
+csv/204-csv/164.csv,which of these stations broadcasts with the least power?,Mom's Radio 101.5 Tacloban,1,"col : Branding | Power (kW)
+row 1 : Mom's Radio 97.9 Laoag | 5 kW
+row 2 : Mom's Radio 95.9 Naga | 10 kW
+row 3 : Mom's Radio 90.3 Bacolod | 5 kW
+row 4 : DYAP 88.3 Cebu | 5 kW
+row 5 : Mom's Radio 101.5 Tacloban | 2.5 kW
+row 6 : Mom's Radio 101.9 Zamboanga | 5 kW
+row 7 : DXSS 97.9 Davao | 10 kW
+","['f_sort_by', ['Power (kW)']]","f_select_column(['Branding', 'Power (kW)']) -> f_sort_by(['Power (kW)']) -> "
+csv/204-csv/232.csv,which countries won the least amount of medals?,Peru|Paraguay,0,"col : Rank | Nation | Gold | Silver | Bronze | Total
+row 1 : 1 | Brazil | 13 | 18 | 12 | 43
+row 2 : 2 | Argentina | 7 | 4 | 7 | 18
+row 3 : 3 | Chile | 7 | 2 | 3 | 12
+row 4 : 4 | Colombia | 5 | 5 | 4 | 14
+row 5 : 5 | Venezuela | 4 | 6 | 6 | 16
+row 6 : 6 | Uruguay | 1 | 1 | 0 | 2
+row 7 : 7 | Peru | 0 | 1 | 0 | 1
+row 8 : 8 | Panama | 0 | 0 | 2 | 2
+row 9 : 8 | Bolivia | 0 | 0 | 2 | 2
+row 10 : 10 | Paraguay | 0 | 0 | 1 | 1
+","['f_sort_by', ['Total']]",f_sort_by(['Total']) -> 
+csv/204-csv/232.csv,which countries won the least amount of medals?,Peru|Paraguay,1,"col : Rank | Nation | Gold | Silver | Bronze | Total
+row 1 : 1 | Brazil | 13 | 18 | 12 | 43
+row 2 : 2 | Argentina | 7 | 4 | 7 | 18
+row 3 : 5 | Venezuela | 4 | 6 | 6 | 16
+row 4 : 4 | Colombia | 5 | 5 | 4 | 14
+row 5 : 3 | Chile | 7 | 2 | 3 | 12
+row 6 : 6 | Uruguay | 1 | 1 | 0 | 2
+row 7 : 8 | Panama | 0 | 0 | 2 | 2
+row 8 : 8 | Bolivia | 0 | 0 | 2 | 2
+row 9 : 7 | Peru | 0 | 1 | 0 | 1
+row 10 : 10 | Paraguay | 0 | 0 | 1 | 1
+","['f_select_row', ['row 9', 'row 10']]","f_sort_by(['Total']) -> f_select_row(['row 9', 'row 10']) -> "
+csv/204-csv/232.csv,which countries won the least amount of medals?,Peru|Paraguay,2,"col : Rank | Nation | Gold | Silver | Bronze | Total
+row 1 : 8 | Bolivia | 0 | 0 | 2 | 2
+row 2 : 10 | Paraguay | 0 | 0 | 1 | 1
+","['f_select_column', ['Nation', 'Total']]","f_sort_by(['Total']) -> f_select_row(['row 9', 'row 10']) -> f_select_column(['Nation', 'Total']) -> "
+csv/204-csv/762.csv,what kind of power has the least amount of capacity in 2007?,Other renewables,0,"col : Unnamed: 0 | 2000 | 2001 | 2002 | 2003 | 2004 | 2005 | 2006 | 2007 | 2008 | 2009 | 2010 | 2011 | 2012
+row 1 : Hydro power | 1,150 | 1,161 | 1,171 | 1,247 | 1,281 | 1,293 | 1,316 | 1,326 | 1,357 | 1,379 | 1,382 | 1,401 | 1,584
+row 2 : Thermal | 685 | 835 | 1,056 | 1,233 | 1,215 | 1,155 | 1,155 | 1,155 | 1,285 | 1,290 | 1,390 | 1,690 | 1,638
+row 3 : Other renewables | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 15 | 45 | 50 | 90
+row 4 : Total availability | 1,838 | 1,999 | 2,230 | 2,483 | 2,499 | 2,411 | 2,434 | 2,444 | 2,645 | 2,684 | 2,818 | 3,141 | 3,312
+row 5 : Hydro power | 3,197 | 3,110 | 2,962 | 3,310 | 2,960 | 3,451 | 4,634 | 3,947 | 4,130 | 3,881 | 5,634 | 4,622 | 3,292
+row 6 : Thermal | 3,485 | 3,407 | 3,201 | 4,298 | 5,080 | 5,314 | 4,751 | 5,864 | 5,763 | 5,975 | 4,995 | 6,785 | 8,339
+row 7 : Other renewables | 3 | 3 | 4 | 3 | 3 | 5 | 4 | 4 | 8 | 27 | 86 | 121 | 169
+row 8 : Total production | 6,685 | 6,520 | 6,167 | 7,611 | 8,043 | 8,770 | 9,389 | 9,815 | 9,901 | 9,883 | 10,715 | 11,528 | 11,800
+","['f_select_column', ['Unnamed: 0', '2007']]","f_select_column(['Unnamed: 0', '2007']) -> "
+csv/204-csv/762.csv,what kind of power has the least amount of capacity in 2007?,Other renewables,1,"col : Unnamed: 0 | 2007
+row 1 : Hydro power | 1,326
+row 2 : Thermal | 1,155
+row 3 : Other renewables | 3
+row 4 : Total availability | 2,444
+row 5 : Hydro power | 3,947
+row 6 : Thermal | 5,864
+row 7 : Other renewables | 4
+row 8 : Total production | 9,815
+","['f_sort_by', ['2007']]","f_select_column(['Unnamed: 0', '2007']) -> f_sort_by(['2007']) -> "
+csv/204-csv/762.csv,what kind of power has the least amount of capacity in 2007?,Other renewables,2,"col : Unnamed: 0 | 2007
+row 1 : Total production | 9,815
+row 2 : Thermal | 5,864
+row 3 : Other renewables | 4
+row 4 : Hydro power | 3,947
+row 5 : Other renewables | 3
+row 6 : Total availability | 2,444
+row 7 : Hydro power | 1,326
+row 8 : Thermal | 1,155
+","['f_select_row', ['row 5']]","f_select_column(['Unnamed: 0', '2007']) -> f_sort_by(['2007']) -> f_select_row(['row 5']) -> "
+csv/204-csv/60.csv,"if ordering political parties from the most representatives to the least, which would come first?",Sadiya,,,,
+csv/204-csv/232.csv,which country scored the least medals?,Peru|Paraguay,0,"col : Rank | Nation | Gold | Silver | Bronze | Total
+row 1 : 1 | Brazil | 13 | 18 | 12 | 43
+row 2 : 2 | Argentina | 7 | 4 | 7 | 18
+row 3 : 3 | Chile | 7 | 2 | 3 | 12
+row 4 : 4 | Colombia | 5 | 5 | 4 | 14
+row 5 : 5 | Venezuela | 4 | 6 | 6 | 16
+row 6 : 6 | Uruguay | 1 | 1 | 0 | 2
+row 7 : 7 | Peru | 0 | 1 | 0 | 1
+row 8 : 8 | Panama | 0 | 0 | 2 | 2
+row 9 : 8 | Bolivia | 0 | 0 | 2 | 2
+row 10 : 10 | Paraguay | 0 | 0 | 1 | 1
+","['f_sort_by', ['Total']]",f_sort_by(['Total']) -> 
+csv/204-csv/232.csv,which country scored the least medals?,Peru|Paraguay,1,"col : Rank | Nation | Gold | Silver | Bronze | Total
+row 1 : 1 | Brazil | 13 | 18 | 12 | 43
+row 2 : 2 | Argentina | 7 | 4 | 7 | 18
+row 3 : 5 | Venezuela | 4 | 6 | 6 | 16
+row 4 : 4 | Colombia | 5 | 5 | 4 | 14
+row 5 : 3 | Chile | 7 | 2 | 3 | 12
+row 6 : 6 | Uruguay | 1 | 1 | 0 | 2
+row 7 : 8 | Panama | 0 | 0 | 2 | 2
+row 8 : 8 | Bolivia | 0 | 0 | 2 | 2
+row 9 : 7 | Peru | 0 | 1 | 0 | 1
+row 10 : 10 | Paraguay | 0 | 0 | 1 | 1
+","['f_select_row', ['row 9', 'row 10']]","f_sort_by(['Total']) -> f_select_row(['row 9', 'row 10']) -> "
+csv/204-csv/232.csv,which country scored the least medals?,Peru|Paraguay,2,"col : Rank | Nation | Gold | Silver | Bronze | Total
+row 1 : 8 | Bolivia | 0 | 0 | 2 | 2
+row 2 : 10 | Paraguay | 0 | 0 | 1 | 1
+","['f_select_column', ['Nation', 'Total']]","f_sort_by(['Total']) -> f_select_row(['row 9', 'row 10']) -> f_select_column(['Nation', 'Total']) -> "
+csv/204-csv/743.csv,who was the slowest driver to finish the race?,Robert Kubica,0,"col : Pos | No | Driver | Constructor | Laps | Time/Retired | Grid | Points
+row 1 : 1 | 15 | Sebastian Vettel | Red Bull-Renault | 56 | 1:57:43.485 | 1 | 10.0
+row 2 : 2 | 14 | Mark Webber | Red Bull-Renault | 56 | +10.970 | 3 | 8.0
+row 3 : 3 | 22 | Jenson Button | Brawn-Mercedes | 56 | +44.975 | 5 | 6.0
+row 4 : 4 | 23 | Rubens Barrichello | Brawn-Mercedes | 56 | +1:03.704 | 4 | 5.0
+row 5 : 5 | 2‡ | Heikki Kovalainen | McLaren-Mercedes | 56 | +1:05.102 | 12 | 4.0
+row 6 : 6 | 1‡ | Lewis Hamilton | McLaren-Mercedes | 56 | +1:11.866 | 9 | 3.0
+row 7 : 7 | 10 | Timo Glock | Toyota | 56 | +1:14.476 | 19 | 2.0
+row 8 : 8 | 12 | Sébastien Buemi | Toro Rosso-Ferrari | 56 | +1:16.439 | 10 | 1.0
+row 9 : 9 | 7 | Fernando Alonso | Renault | 56 | +1:24.309 | 2 | nan
+row 10 : 10 | 4 | Kimi Räikkönen | Ferrari | 56 | +1:31.750 | 8 | nan
+row 11 : 11 | 11 | Sébastien Bourdais | Toro Rosso-Ferrari | 56 | +1:34.156 | 15 | nan
+row 12 : 12 | 6‡ | Nick Heidfeld | BMW Sauber | 56 | +1:35.834 | 11 | nan
+row 13 : 13 | 5 | Robert Kubica | BMW Sauber | 56 | +1:46.853 | 17 | nan
+row 14 : 14 | 21 | Giancarlo Fisichella | Force India-Mercedes | 55 | +1 Lap | 20 | nan
+row 15 : 15 | 16 | Nico Rosberg | Williams-Toyota | 55 | +1 Lap | 7 | nan
+row 16 : 16 | 8 | Nelson Piquet, Jr. | Renault | 54 | +2 Laps | 16 | nan
+row 17 : 17 | 20 | Adrian Sutil | Force India-Mercedes | 50 | Accident | 18 | nan
+row 18 : Ret | 17 | Kazuki Nakajima | Williams-Toyota | 43 | Transmission | 14 | nan
+row 19 : Ret | 3 | Felipe Massa | Ferrari | 20 | Electrical | 13 | nan
+row 20 : Ret | 9 | Jarno Trulli | Toyota | 18 | Collision damage | 6 | nan
+","['f_select_column', ['Pos', 'Driver']]","f_select_column(['Pos', 'Driver']) -> "
+csv/204-csv/743.csv,who was the slowest driver to finish the race?,Robert Kubica,1,"col : Pos | Driver
+row 1 : 1 | Sebastian Vettel
+row 2 : 2 | Mark Webber
+row 3 : 3 | Jenson Button
+row 4 : 4 | Rubens Barrichello
+row 5 : 5 | Heikki Kovalainen
+row 6 : 6 | Lewis Hamilton
+row 7 : 7 | Timo Glock
+row 8 : 8 | Sébastien Buemi
+row 9 : 9 | Fernando Alonso
+row 10 : 10 | Kimi Räikkönen
+row 11 : 11 | Sébastien Bourdais
+row 12 : 12 | Nick Heidfeld
+row 13 : 13 | Robert Kubica
+row 14 : 14 | Giancarlo Fisichella
+row 15 : 15 | Nico Rosberg
+row 16 : 16 | Nelson Piquet, Jr.
+row 17 : 17 | Adrian Sutil
+row 18 : Ret | Kazuki Nakajima
+row 19 : Ret | Felipe Massa
+row 20 : Ret | Jarno Trulli
+","['f_sort_by', ['Pos']]","f_select_column(['Pos', 'Driver']) -> f_sort_by(['Pos']) -> "
+csv/204-csv/743.csv,who was the slowest driver to finish the race?,Robert Kubica,2,"col : Pos | Driver
+row 1 : Ret | Jarno Trulli
+row 2 : Ret | Kazuki Nakajima
+row 3 : Ret | Felipe Massa
+row 4 : 9 | Fernando Alonso
+row 5 : 8 | Sébastien Buemi
+row 6 : 7 | Timo Glock
+row 7 : 6 | Lewis Hamilton
+row 8 : 5 | Heikki Kovalainen
+row 9 : 4 | Rubens Barrichello
+row 10 : 3 | Jenson Button
+row 11 : 2 | Mark Webber
+row 12 : 17 | Adrian Sutil
+row 13 : 16 | Nelson Piquet, Jr.
+row 14 : 15 | Nico Rosberg
+row 15 : 14 | Giancarlo Fisichella
+row 16 : 13 | Robert Kubica
+row 17 : 12 | Nick Heidfeld
+row 18 : 11 | Sébastien Bourdais
+row 19 : 10 | Kimi Räikkönen
+row 20 : 1 | Sebastian Vettel
+","['f_select_row', ['row 4']]","f_select_column(['Pos', 'Driver']) -> f_sort_by(['Pos']) -> f_select_row(['row 4']) -> "
+csv/203-csv/835.csv,how many had at least 10 goals?,5,,,,
+csv/203-csv/439.csv,which rider who was not from the united kingdom had the least final points?,Eric Chitty,,,,
+csv/203-csv/439.csv,the least number of points belongs to whom?,Alec Statham,0,"col : Pos. | Rider | Semi-Final Points | Final Points | Final Heats | Total Points
+row 1 : 1 | Jack Milne | 13 | 15 | (3,3,3,3,3) | 28
+row 2 : 2 | Wilbur Lamoreaux | 12 | 13 | (3,3,3,1,3) | 25
+row 3 : 3 | Cordy Milne | 11 | 12 | (2,3,2,3,2) | 23
+row 4 : 4 | Jack Parker | 11 | 10 | (2,3,1,2,2) | 21
+row 5 : 5 | Ginger Lees | 10 | 9 | (1,1,2,2,3) | 19
+row 6 : 6 | Frank Charles | 10 | 7 | (0,0,1,3,3) | 17
+row 7 : 7 | Lionel Van Praag | 11 | 6 | (3,0,-,3,0) | 17
+row 8 : 8 | Bill Kitchen | 7 | 9 | (1,2,2,2,2) | 16
+row 9 : 9 | George Newton | 11 | 5 | (3,0,0,0,2) | 16
+row 10 : 10 | Eric Langton | 12 | 4 | (1,0,0,3,0) | 16
+row 11 : 11 | Morian Hansen | 7 | 8 | (1,2,3,1,1) | 15
+row 12 : 12 | Eric Chitty | 11 | 4 | (0,2,0,1,1) | 15
+row 13 : 13 | Joe Abbott | 8 | 6 | (2,1,1,2,0) | 14
+row 14 : 14 | Arthur Atkinson | 8 | 6 | (2,0,2,1,1) | 14
+row 15 : 15 | Frank Varey | 8 | 3 | (0,1,1,0,1) | 11
+row 16 : 16 | Tommy Croombs | 6 | 2 | (0,2,0,0,0) | 8
+row 17 : 17 | Bob Harrison | 7 | - | - | 7
+row 18 : 18 | Alec Statham | 6 | 0 | (0) | 6
+","['f_sort_by', ['Total Points']]",f_sort_by(['Total Points']) -> 
+csv/203-csv/439.csv,the least number of points belongs to whom?,Alec Statham,1,"col : Pos. | Rider | Semi-Final Points | Final Points | Final Heats | Total Points
+row 1 : 1 | Jack Milne | 13 | 15 | (3,3,3,3,3) | 28
+row 2 : 2 | Wilbur Lamoreaux | 12 | 13 | (3,3,3,1,3) | 25
+row 3 : 3 | Cordy Milne | 11 | 12 | (2,3,2,3,2) | 23
+row 4 : 4 | Jack Parker | 11 | 10 | (2,3,1,2,2) | 21
+row 5 : 5 | Ginger Lees | 10 | 9 | (1,1,2,2,3) | 19
+row 6 : 6 | Frank Charles | 10 | 7 | (0,0,1,3,3) | 17
+row 7 : 7 | Lionel Van Praag | 11 | 6 | (3,0,-,3,0) | 17
+row 8 : 9 | George Newton | 11 | 5 | (3,0,0,0,2) | 16
+row 9 : 10 | Eric Langton | 12 | 4 | (1,0,0,3,0) | 16
+row 10 : 8 | Bill Kitchen | 7 | 9 | (1,2,2,2,2) | 16
+row 11 : 11 | Morian Hansen | 7 | 8 | (1,2,3,1,1) | 15
+row 12 : 12 | Eric Chitty | 11 | 4 | (0,2,0,1,1) | 15
+row 13 : 13 | Joe Abbott | 8 | 6 | (2,1,1,2,0) | 14
+row 14 : 14 | Arthur Atkinson | 8 | 6 | (2,0,2,1,1) | 14
+row 15 : 15 | Frank Varey | 8 | 3 | (0,1,1,0,1) | 11
+row 16 : 16 | Tommy Croombs | 6 | 2 | (0,2,0,0,0) | 8
+row 17 : 17 | Bob Harrison | 7 | - | - | 7
+row 18 : 18 | Alec Statham | 6 | 0 | (0) | 6
+","['f_select_row', ['row 18']]",f_sort_by(['Total Points']) -> f_select_row(['row 18']) -> 
+csv/203-csv/439.csv,the least number of points belongs to whom?,Alec Statham,2,"col : Pos. | Rider | Semi-Final Points | Final Points | Final Heats | Total Points
+row 1 : 18 | Alec Statham | 6 | 0 | (0) | 6
+","['f_select_column', ['Rider', 'Total Points']]","f_sort_by(['Total Points']) -> f_select_row(['row 18']) -> f_select_column(['Rider', 'Total Points']) -> "
+csv/204-csv/634.csv,"how many series awarded at least $500,000 in prize money?",3,,,,
+csv/204-csv/957.csv,what years did coy play at least 15 games?,2002|2003|2006|2008|2009|2010,0,"col : Year | Team | Games | Combined Tackles | Tackles | Assisted Tackles | Sacks | Forced Fumbles | Fumble Recoveries | Fumble Return Yards | Interceptions | Interception Return Yards | Yards per Interception Return | Longest Interception REturn | Interceptions Returned for Touchdown | Passes Defended
+row 1 : 2002 | BUF | 16 | 96 | 71 | 25 | 3.0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1
+row 2 : 2003 | BUF | 16 | 28 | 24 | 4 | 1.0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2
+row 3 : 2004 | BUF | 12 | 25 | 14 | 11 | 1.0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0
+row 4 : 2005 | BUF | 13 | 9 | 6 | 3 | 0.0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0
+row 5 : 2006 | BUF | 16 | 23 | 13 | 10 | 0.0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0
+row 6 : 2007 | BUF | 7 | 4 | 3 | 1 | 0.0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0
+row 7 : 2008 | ATL | 16 | 34 | 28 | 6 | 0.0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1
+row 8 : 2009 | ATL | 16 | 17 | 15 | 2 | 0.0 | 1 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 1
+row 9 : 2010 | ATL | 15 | 12 | 8 | 4 | 0.0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0
+row 10 : Career | nan | 127 | 248 | 182 | 66 | 5.0 | 2 | 4 | 0 | 0 | 0 | 0 | 0 | 0 | 5
+","['f_select_column', ['Year', 'Games']]","f_select_column(['Year', 'Games']) -> "
+csv/204-csv/957.csv,what years did coy play at least 15 games?,2002|2003|2006|2008|2009|2010,1,"col : Year | Games
+row 1 : 2002 | 16
+row 2 : 2003 | 16
+row 3 : 2004 | 12
+row 4 : 2005 | 13
+row 5 : 2006 | 16
+row 6 : 2007 | 7
+row 7 : 2008 | 16
+row 8 : 2009 | 16
+row 9 : 2010 | 15
+row 10 : Career | 127
+","['f_select_row', ['row 1', 'row 2', 'row 5', 'row 7', 'row 8']]","f_select_column(['Year', 'Games']) -> f_select_row(['row 1', 'row 2', 'row 5', 'row 7', 'row 8']) -> "
+csv/203-csv/516.csv,in 2010 he had at least how many punt returns?,0,0,"col : Year | Team | Games | Punt Return Attempts | Punt Return Yards | Punts Returned for Touchdown | Punts Fair Caught | Longest Punt Return | Kickoff Attempts | Kickoff Return Yards | Kickoffs Returned for Touchdown | Kickoffs Fair Caught | Longest Kickoff Return
+row 1 : 2008 | DEN | 15 | 14 | 140 | 0 | 10 | 36 | 23 | 600 | 0 | 0 | 95
+row 2 : 2009 | DEN | 14 | 30 | 335 | 1 | 13 | 71 | 26 | 621 | 1 | 0 | 93
+row 3 : 2010 | DEN | 16 | 25 | 298 | 0 | 12 | 33 | 5 | 107 | 0 | 0 | 33
+row 4 : 2011 | DEN | 12 | 12 | 194 | 1 | 9 | 85 | 3 | 47 | 0 | 0 | 20
+row 5 : 2012 | SD | 10 | 12 | 64 | 0 | 2 | 14 | 0 | 0 | 0 | 0 | 0
+row 6 : 2013 | SD | 15 | 7 | 41 | 0 | 7 | 12 | 0 | 0 | 0 | 0 | 0
+row 7 : Total | Total | 82 | 100 | 1,072 | 2 | 53 | 85 | 57 | 1375 | 1 | 0 | 95
+","['f_select_row', ['row 3']]",f_select_row(['row 3']) -> 
+csv/203-csv/516.csv,in 2010 he had at least how many punt returns?,0,1,"col : Year | Team | Games | Punt Return Attempts | Punt Return Yards | Punts Returned for Touchdown | Punts Fair Caught | Longest Punt Return | Kickoff Attempts | Kickoff Return Yards | Kickoffs Returned for Touchdown | Kickoffs Fair Caught | Longest Kickoff Return
+row 1 : 2010 | DEN | 16 | 25 | 298 | 0 | 12 | 33 | 5 | 107 | 0 | 0 | 33
+","['f_select_column', ['Punt Return Attempts']]",f_select_row(['row 3']) -> f_select_column(['Punt Return Attempts']) -> 
+csv/204-csv/950.csv,how many medalist had at least 35.00 time in silver?,9,,,,
+csv/204-csv/762.csv,what year had the least thermal grid capacity?,2000,0,"col : Unnamed: 0 | 2000 | 2001 | 2002 | 2003 | 2004 | 2005 | 2006 | 2007 | 2008 | 2009 | 2010 | 2011 | 2012
+row 1 : Hydro power | 1,150 | 1,161 | 1,171 | 1,247 | 1,281 | 1,293 | 1,316 | 1,326 | 1,357 | 1,379 | 1,382 | 1,401 | 1,584
+row 2 : Thermal | 685 | 835 | 1,056 | 1,233 | 1,215 | 1,155 | 1,155 | 1,155 | 1,285 | 1,290 | 1,390 | 1,690 | 1,638
+row 3 : Other renewables | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 3 | 15 | 45 | 50 | 90
+row 4 : Total availability | 1,838 | 1,999 | 2,230 | 2,483 | 2,499 | 2,411 | 2,434 | 2,444 | 2,645 | 2,684 | 2,818 | 3,141 | 3,312
+row 5 : Hydro power | 3,197 | 3,110 | 2,962 | 3,310 | 2,960 | 3,451 | 4,634 | 3,947 | 4,130 | 3,881 | 5,634 | 4,622 | 3,292
+row 6 : Thermal | 3,485 | 3,407 | 3,201 | 4,298 | 5,080 | 5,314 | 4,751 | 5,864 | 5,763 | 5,975 | 4,995 | 6,785 | 8,339
+row 7 : Other renewables | 3 | 3 | 4 | 3 | 3 | 5 | 4 | 4 | 8 | 27 | 86 | 121 | 169
+row 8 : Total production | 6,685 | 6,520 | 6,167 | 7,611 | 8,043 | 8,770 | 9,389 | 9,815 | 9,901 | 9,883 | 10,715 | 11,528 | 11,800
+","['f_select_row', ['row 2']]",f_select_row(['row 2']) -> 
+csv/204-csv/762.csv,what year had the least thermal grid capacity?,2000,1,"col : Unnamed: 0 | 2000 | 2001 | 2002 | 2003 | 2004 | 2005 | 2006 | 2007 | 2008 | 2009 | 2010 | 2011 | 2012
+row 1 : Thermal | 685 | 835 | 1,056 | 1,233 | 1,215 | 1,155 | 1,155 | 1,155 | 1,285 | 1,290 | 1,390 | 1,690 | 1,638
+","['f_select_column', ['2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012']]","f_select_row(['row 2']) -> f_select_column(['2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012']) -> "
+csv/204-csv/762.csv,what year had the least thermal grid capacity?,2000,2,"col : 2000 | 2001 | 2002 | 2003 | 2004 | 2005 | 2006 | 2007 | 2008 | 2009 | 2010 | 2011 | 2012
+row 1 : 685 | 835 | 1,056 | 1,233 | 1,215 | 1,155 | 1,155 | 1,155 | 1,285 | 1,290 | 1,390 | 1,690 | 1,638
+","['f_sort_by', ['2000']]","f_select_row(['row 2']) -> f_select_column(['2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012']) -> f_sort_by(['2000']) -> "
+csv/203-csv/88.csv,which language had the least female speakers?,Romanian,0,"col : Language | Number | percentage (%) | males | females
+row 1 : Polish | 1 420 436 | 73.52 | 687 210 | 733 226
+row 2 : Yiddish | 317 169 | 16.41 | 154 603 | 162 566
+row 3 : Russian | 87 850 | 4.54 | 13 551 | 1 586
+row 4 : German | 77 160 | 3.99 | 37 984 | 39 176
+row 5 : Ukrainian | 15 930 | 0.82 | 15 623 | 307
+row 6 : Romanian | 2 299 | >0.01 | 2 293 | 6
+row 7 : Latvian | 1 759 | >0.01 | 1 738 | 21
+row 8 : Estonian | 1 566 | >0.01 | 1 555 | 11
+row 9 : Tatar | 1 473 | >0.01 | 1 437 | 36
+row 10 : Belarusian | 1 343 | >0.01 | 1 234 | 109
+row 11 : Other | 4 824 | 0.24 | 3 289 | 1 535
+row 12 : Persons\nthat didn't name\ntheir native language | 54 | >0.01 | 33 | 21
+row 13 : Total | 1 931 867 | 100 | 977 948 | 953 919
+","['f_select_column', ['Language', 'females']]","f_select_column(['Language', 'females']) -> "
+csv/203-csv/88.csv,which language had the least female speakers?,Romanian,1,"col : Language | females
+row 1 : Polish | 733 226
+row 2 : Yiddish | 162 566
+row 3 : Russian | 1 586
+row 4 : German | 39 176
+row 5 : Ukrainian | 307
+row 6 : Romanian | 6
+row 7 : Latvian | 21
+row 8 : Estonian | 11
+row 9 : Tatar | 36
+row 10 : Belarusian | 109
+row 11 : Other | 1 535
+row 12 : Persons\nthat didn't name\ntheir native language | 21
+row 13 : Total | 953 919
+","['f_sort_by', ['females']]","f_select_column(['Language', 'females']) -> f_sort_by(['females']) -> "
+csv/203-csv/695.csv,"in the irish national final for the eurovision song contest in 1990, which artists did not receive at least 75 points?",The Memories|Fran Meen|Dreams|Maggie Toal,0,"col : Draw | Artist | Song | Points | Place
+row 1 : 1 | The Memories | \If It Means Losing You\"""" | 57 | 8th
+row 2 : 2 | Ann Breen | \Oh Darling\"""" | 80 | 4th
+row 3 : 3 | Fran Meen | \Say That You Love Me\"""" | 66 | 6th
+row 4 : 4 | Dreams | \Sin Sin (\""That's That\"")\"""" | 73 | 5th
+row 5 : 5 | Connor Stevens | \Count On Me\"""" | 88 | 3rd
+row 6 : 6 | Linda Martin and Friends | \All The People In The World\"""" | 105 | 2nd
+row 7 : 7 | Maggie Toal | \Feed Him With Love\"""" | 61 | 7th
+row 8 : 8 | Liam Reilly | \Somewhere In Europe\"""" | 130 | 1st
+","['f_select_column', ['Artist', 'Points']]","f_select_column(['Artist', 'Points']) -> "
+csv/203-csv/695.csv,"in the irish national final for the eurovision song contest in 1990, which artists did not receive at least 75 points?",The Memories|Fran Meen|Dreams|Maggie Toal,1,"col : Artist | Points
+row 1 : The Memories | 57
+row 2 : Ann Breen | 80
+row 3 : Fran Meen | 66
+row 4 : Dreams | 73
+row 5 : Connor Stevens | 88
+row 6 : Linda Martin and Friends | 105
+row 7 : Maggie Toal | 61
+row 8 : Liam Reilly | 130
+","['f_sort_by', ['Points']]","f_select_column(['Artist', 'Points']) -> f_sort_by(['Points']) -> "
+csv/204-csv/217.csv,which camp is the least amount on mar.30,Thampalakamam Peripheral Unit,0,"col : Camp | Div Sec\nDivision | Admin\nDistrict | 9 Feb | 11 Feb | 16 Feb | 25 Feb | 27 Feb | 2 Mar | 4 Mar | 6 Mar | 11 Mar | 13 Mar | 24 Mar | 30 Mar | 31 Mar
+row 1 : Menik Farm Zone 0\n(Kathirkamar Village) | Vengalachedikulam | VAV | nan | nan | 1,353 | 2,768 | 2,791 | 2,791 | 3,344 | 4,212 | 4,679 | 4,679 | 6,459 | 6,459 | 6,459
+row 2 : Menik Farm Zone 3\n(Arunachchalam Village) | Vengalachedikulam | VAV | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 6,729 | 11,881 | 11,881
+row 3 : Ariviththodam Sivanantha Vidyalayam, Menik Farm | Vengalachedikulam | VAV | 581 | 581 | 581 | 581 | 584 | 584 | 585 | 585 | 583 | 583 | 601 | 601 | 601
+row 4 : Cheddikulam Maha Vidyalayam | Vengalachedikulam | VAV | 1,624 | 1,624 | 1,624 | 1,965 | 1,965 | 1,965 | 1,996 | 1,996 | 2,001 | 2,001 | 1,995 | 1,995 | 1,995
+row 5 : Gamini Maha Vidyalayam | Vavuniya | VAV | 1,306 | 1,306 | 2,017 | 1,618 | 1,618 | 1,618 | 1,263 | 1,307 | 1,382 | 1,382 | 1,471 | 1,487 | 1,487
+row 6 : Kovilkulam Hindu College | Vavuniya | VAV | nan | 1,066 | 1,056 | 1,081 | 1,143 | 1,143 | 1,130 | 1,130 | 1,139 | 1,139 | 1,167 | 1,166 | 1,166
+row 7 : Nelukkulam Kalaimahal Maha Vidyalayam | Vavuniya | VAV | 2,829 | 2,829 | 2,829 | 3,071 | 3,084 | 3,084 | 3,084 | 3,068 | 3,068 | 3,082 | 3,101 | 3,070 | 3,070
+row 8 : Nelukkulam Technical College | Vavuniya | VAV | nan | 1,527 | 2,374 | 2,913 | 2,913 | 2,913 | 2,730 | 2,801 | 2,801 | 2,968 | 3,020 | 3,032 | 3,032
+row 9 : Pampamadhu Hostel School | Vavuniya | VAV | 2,779 | 2,779 | 4,181 | 4,131 | 4,131 | 4,131 | 4,131 | 4,108 | 4,108 | 4,108 | 4,178 | 4,178 | 4,178
+row 10 : Ponthoodam Government Tamil Mixed School | Vavuniya | VAV | 1,351 | 1,351 | 1,351 | 1,365 | 1,310 | 1,310 | 1,310 | 1,308 | 1,308 | 1,320 | 1,327 | 1,319 | 1,319
+row 11 : Poonathoddam College of Education | Vavuniya | VAV | 4,406 | 4,406 | 5,302 | 5,302 | 5,009 | 5,009 | 5,009 | 5,036 | 5,036 | 5,119 | 5,236 | 5,243 | 5,243
+row 12 : Sivapirakasa Ladies College, Vavuniya | Vavuniya | VAV | nan | nan | nan | nan | 2,257 | 2,257 | 2,346 | 2,390 | 2,612 | 2,612 | 3,020 | 2,973 | 2,973
+row 13 : Vavuniya Muslim Maha Vidyalayam | Vavuniya | VAV | nan | 1,333 | 1,767 | 1,767 | nan | nan | nan | nan | nan | nan | 1,360 | 1,394 | 1,394
+row 14 : Vavuniya Tamil Maha Vidyalayam (Primary) | Vavuniya | VAV | nan | nan | 1,916 | 1,929 | 1,390 | 1,390 | nan | 1,153 | 1,153 | 1,153 | 1,196 | 1,168 | 1,168
+row 15 : Vavuniya Tamil Maha Vidyalayam (Senior) | Vavuniya | VAV | nan | 1,200 | 4,390 | 3,838 | 4,085 | 4,085 | 5,475 | 3,540 | 3,390 | 3,390 | 3,963 | 3,969 | 3,969
+row 16 : Kaithady Ayurvedic University Hostel | Thenmarachchi | JAF | nan | nan | nan | nan | nan | nan | nan | nan | 647 | 647 | 1,073 | 1,073 | 1,083
+row 17 : Kaithady Hindu Children Home | Thenmarachchi | JAF | nan | nan | nan | nan | nan | nan | nan | 184 | 184 | 184 | 667 | 667 | 668
+row 18 : Kaithady Palmyra Research Institute 1 | Thenmarachchi | JAF | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 357
+row 19 : Kodikamam Government Tamil Mixed School | Thenmarachchi | JAF | nan | nan | 411 | 424 | 503 | 503 | 655 | 711 | 706 | 706 | 1,006 | 1,006 | 1,006
+row 20 : Kopay Teacher Training College | Valikamam East | JAF | nan | nan | 444 | 438 | 464 | 464 | 463 | 463 | 463 | 463 | 464 | 464 | 464
+row 21 : Murusivil Roman Catholic Tamil Mixed School | Thenmarachchi | JAF | nan | nan | 1,139 | 1,140 | 1,139 | 1,139 | 1,140 | 1,140 | 1,313 | 1,313 | 1,691 | 1,691 | 1,786
+row 22 : Thirunagar Old Court House | Jaffna | JAF | nan | nan | 73 | 74 | 49 | 49 | 108 | 108 | 113 | 113 | 114 | 114 | 140
+row 23 : Illupaikkulam | Mannar Town | MAN | nan | nan | 52 | 52 | 52 | 52 | 52 | 52 | 52 | 52 | 52 | 52 | 52
+row 24 : Kalimoddai | Nanaddan | MAN | nan | nan | 445 | 445 | 445 | 445 | 445 | 454 | 454 | 454 | 454 | 454 | 454
+row 25 : Mannar District General Hospital | Mannar Town | MAN | nan | nan | nan | nan | 279 | 279 | 279 | 279 | 279 | 279 | 279 | 279 | 279
+row 26 : Sirukandal | Nanaddan | MAN | nan | nan | 357 | 357 | 357 | 357 | 357 | 350 | 350 | 350 | 350 | 350 | 350
+row 27 : Kantale Base Hospital | Kantale | TRI | nan | nan | nan | 84 | 160 | 127 | 127 | 127 | 80 | 80 | 57 | 57 | 57
+row 28 : Methodist School | nan | TRI | nan | nan | nan | 83 | 52 | 26 | 32 | 126 | 40 | 40 | nan | nan | nan
+row 29 : Pulmoddai Field Hospital | Kuchaveli | TRI | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 79 | 79 | 129
+row 30 : Thampalakamam Peripheral Unit | Thampalakamam | TRI | nan | nan | nan | 33 | 76 | 79 | 77 | 77 | 75 | 75 | 35 | 35 | 35
+row 31 : Trincomalee General Hospital | Town & Gravets | TRI | nan | nan | nan | 678 | 544 | 512 | 417 | 492 | 426 | 426 | 374 | 374 | 296
+row 32 : Colombo National Hospital | nan | COL | nan | nan | nan | 28 | 75 | 106 | 106 | 106 | 97 | 97 | 186 | 186 | 118
+row 33 : Padaviya Base Hospital | nan | ANU | nan | nan | nan | nan | nan | nan | nan | nan | nan | nan | 145 | 145 | 223
+row 34 : Polonnaruwa General Hospital | nan | POL | nan | nan | nan | 86 | 171 | 171 | 171 | 171 | 171 | 171 | 100 | 100 | 92
+row 35 : Total | Total | Total | 14,876 | 20,002 | 33,662 | 36,251 | 36,646 | 36,589 | 36,832 | 37,474 | 38,710 | 38,986 | 51,949 | 57,061 | 57,524
+","['f_select_column', ['30 Mar']]",f_select_column(['30 Mar']) -> 
+csv/204-csv/217.csv,which camp is the least amount on mar.30,Thampalakamam Peripheral Unit,1,"col : 30 Mar
+row 1 : 6,459
+row 2 : 11,881
+row 3 : 601
+row 4 : 1,995
+row 5 : 1,487
+row 6 : 1,166
+row 7 : 3,070
+row 8 : 3,032
+row 9 : 4,178
+row 10 : 1,319
+row 11 : 5,243
+row 12 : 2,973
+row 13 : 1,394
+row 14 : 1,168
+row 15 : 3,969
+row 16 : 1,073
+row 17 : 667
+row 18 : nan
+row 19 : 1,006
+row 20 : 464
+row 21 : 1,691
+row 22 : 114
+row 23 : 52
+row 24 : 454
+row 25 : 279
+row 26 : 350
+row 27 : 57
+row 28 : nan
+row 29 : 79
+row 30 : 35
+row 31 : 374
+row 32 : 186
+row 33 : 145
+row 34 : 100
+row 35 : 57,061
+","['f_sort_by', ['30 Mar']]",f_select_column(['30 Mar']) -> f_sort_by(['30 Mar']) -> 
+csv/203-csv/561.csv,who had the the lowest single game attendance?,Kokushikan University,0,"col : Pos | Team | Total | High | Low | Average | Change
+row 1 : 1.0 | Honda Motor | 13,178 | 3,305 | 402 | 879 | −11.9%†
+row 2 : 2.0 | SC Tottori | 12,281 | 2,124 | 401 | 819 | n/a†
+row 3 : 3.0 | NTT West Kumamoto | 10,394 | 1,378 | 324 | 693 | n/a†
+row 4 : 4.0 | Ehime FC | 9,896 | 1,250 | 348 | 660 | n/a†
+row 5 : 5.0 | Tochigi SC | 9,723 | 1,141 | 285 | 648 | −38.2%†
+row 6 : 6.0 | Otsuka Pharmaceuticals | 8,975 | 2,391 | 284 | 598 | +18.4%†
+row 7 : 7.0 | YKK FC | 8,093 | 2,477 | 198 | 540 | n/a†
+row 8 : 8.0 | Sony Sendai | 7,817 | 886 | 342 | 521 | −52.3%†
+row 9 : 9.0 | Yokogawa FC | 7,334 | 1,198 | 240 | 489 | −30.4%†
+row 10 : 10.0 | ALO's Hokuriku | 6,380 | 1,801 | 180 | 425 | −12.1%†
+row 11 : 11.0 | Jatco FC | 6,329 | 1,075 | 167 | 422 | −36.7%†
+row 12 : 12.0 | Sagawa Express | 5,365 | 1,054 | 48 | 358 | n/a†
+row 13 : 13.0 | Denso SC | 5,344 | 831 | 119 | 356 | −17.7%†
+row 14 : 14.0 | Kyoken Kyoto | 5,262 | 468 | 203 | 351 | −9.0%†
+row 15 : 15.0 | Shizuoka Sangyo University | 4,013 | 803 | 101 | 268 | −48.8%†
+row 16 : 16.0 | Kokushikan University | 3,298 | 414 | 54 | 220 | −28.3%†
+row 17 : nan | League total | 123,682 | 3,305 | 48 | 515 | −42.8%†
+","['f_select_column', ['Team', 'Low']]","f_select_column(['Team', 'Low']) -> "
+csv/203-csv/561.csv,who had the the lowest single game attendance?,Kokushikan University,1,"col : Team | Low
+row 1 : Honda Motor | 402
+row 2 : SC Tottori | 401
+row 3 : NTT West Kumamoto | 324
+row 4 : Ehime FC | 348
+row 5 : Tochigi SC | 285
+row 6 : Otsuka Pharmaceuticals | 284
+row 7 : YKK FC | 198
+row 8 : Sony Sendai | 342
+row 9 : Yokogawa FC | 240
+row 10 : ALO's Hokuriku | 180
+row 11 : Jatco FC | 167
+row 12 : Sagawa Express | 48
+row 13 : Denso SC | 119
+row 14 : Kyoken Kyoto | 203
+row 15 : Shizuoka Sangyo University | 101
+row 16 : Kokushikan University | 54
+row 17 : League total | 48
+","['f_sort_by', ['Low']]","f_select_column(['Team', 'Low']) -> f_sort_by(['Low']) -> "
+csv/203-csv/142.csv,in the 2007 phillip island superbike world championship round superbike race 1 classification how many riders scored at least 10 points?,6,,,,
+csv/204-csv/933.csv,in what year did they score the least amount of goals?,1991,,,,
+csv/203-csv/17.csv,beauty and the beast won at least how many awards,1,,,,
+csv/204-csv/600.csv,"how many civil parishes have population counts of at least 10,000?",4,,,,
+csv/203-csv/375.csv,how many metres is the mississippi aerial river transit from bottom to top?,109 m,0,"col : Name | Year built | Country | Town | Height | Remarks
+row 1 : Glacial Aerial Tramway Kaprun III | 1966 | Austria | Kaprun | 113.6 m | The tallest pylon is on the third section
+row 2 : Mississippi Aerial River Transit | 1984 | USA | New Orleans | 109 m | The tallest pylon on a gondola lift; on 87 m pile foundations; demolished 1994
+row 3 : Torre Jaume I | 1931 | Spain | Barcelona | 107 m | Intermediate stop of the harbour aerial tramway, also observation tower
+row 4 : Gant Hohtaelli aerial tramway | nan | Switzerland | Zermatt | 94 m | One pylon
+row 5 : London Emirates Air Line | Early 2012 | UK | London | 88 m | North Main Tower. River Thames aerial crossing between Greenwich Peninsular and Royal Docks
+row 6 : Singapore cable car | 1972 | Singapore | Singapore | 88 m | Pylon I
+row 7 : Eibsee Aerial Tramway | 1962 | Germany | Garmisch-Partenkirchen | 85 m | Pylon II
+row 8 : Nizhny Novgorod Volga Aerial Tramway, Tower 4 & 5 | 2012 | Russia | Nizhny Novgorod | 82 m | nan
+row 9 : Mittersill goods aerial tramway | 194? | Austria | Mittersill | 80 m | Two pylons for a tramway that never went in service and was demolished in the 1950s. One of the pylons was built of timber, the other of steel.
+row 10 : Singapore cable car | 1972 | Singapore | Singapore | 80 m | Pylon II
+row 11 : 3S Aerial Tramway | 2004 | Austria | Kitzbühel | 80 m | One pylon
+row 12 : Torre Sant Sebastia | 1931 | Spain | Barcelona | 78 m | Terminal of harbour aerial tramway
+row 13 : Roosevelt Island Tramway | 1976 | USA | New York City | 76 m | Central pylon of commuter tramway
+row 14 : Wendelstein Aerial Tramway | 1970 | Germany | Bayerischzell-Osterhofen | 75 m | nan
+row 15 : Vinpearl Cable Car | 2007 | Vietnam | Nha Trang | 75 m | 7 pylons standing in the sea. Total height from sea bed is 115 m
+row 16 : Sandia Peak Tramway | 1965 | USA | Albuquerque | 70.7 m | Pylon 1, inclined at an angle of 18 degrees
+row 17 : Eibsee Aerial Tramway | 1962 | Germany | Garmisch-Partenkirchen | 65 m | Pylon I
+","['f_select_row', ['row 2']]",f_select_row(['row 2']) -> 
+csv/203-csv/375.csv,how many metres is the mississippi aerial river transit from bottom to top?,109 m,1,"col : Name | Year built | Country | Town | Height | Remarks
+row 1 : Mississippi Aerial River Transit | 1984 | USA | New Orleans | 109 m | The tallest pylon on a gondola lift; on 87 m pile foundations; demolished 1994
+","['f_select_column', ['Height']]",f_select_row(['row 2']) -> f_select_column(['Height']) -> 

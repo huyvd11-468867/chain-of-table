@@ -1,0 +1,24 @@
+which month were the least amount of games held in?
+> Iteration: 0
+> Current table:
+col : Round | Game | Date | Visitor | Score | Home | Score.1 | OT
+row 1 : Preliminary Round | Bye | nan | nan | nan | nan | nan | nan
+row 2 : Quarter-Finals | Game 1 | 13-Apr-75 | Chicago Black Hawks | 1.0 | Buffalo Sabres | 4.0 | nan
+row 3 : Quarter-Finals | Game 2 | 15-Apr-75 | Chicago Black Hawks | 1.0 | Buffalo Sabres | 3.0 | nan
+row 4 : Quarter-Finals | Game 3 | 17-Apr-75 | Buffalo Sabres | 4.0 | Chicago Black Hawks | 5.0 | (OT)
+row 5 : Quarter-Finals | Game 4 | 20-Apr-75 | Buffalo Sabres | 6.0 | Chicago Black Hawks | 2.0 | nan
+row 6 : Quarter-Finals | Game 5 | 22-Apr-75 | Chicago Black Hawks | 1.0 | Buffalo Sabres | 3.0 | nan
+row 7 : Semi-Finals | Game 1 | 27-Apr-75 | Montreal Canadiens | 5.0 | Buffalo Sabres | 6.0 | (OT)
+row 8 : Semi-Finals | Game 2 | 29-Apr-75 | Montreal Canadiens | 2.0 | Buffalo Sabres | 4.0 | nan
+row 9 : Semi-Finals | Game 3 | 1-May-75 | Buffalo Sabres | 0.0 | Montreal Canadiens | 7.0 | nan
+row 10 : Semi-Finals | Game 4 | 3-May-75 | Buffalo Sabres | 2.0 | Montreal Canadiens | 8.0 | nan
+row 11 : Semi-Finals | Game 5 | 6-May-75 | Montreal Canadiens | 4.0 | Buffalo Sabres | 5.0 | (OT)
+row 12 : Semi-Finals | Game 6 | 8-May-75 | Buffalo Sabres | 4.0 | Montreal Canadiens | 3.0 | nan
+row 13 : Stanley Cup Finals | Game 1 | 15-May-75 | Buffalo Sabres | 1.0 | Philadelphia Flyers | 4.0 | nan
+row 14 : Stanley Cup Finals | Game 2 | 18-May-75 | Buffalo Sabres | 1.0 | Philadelphia Flyers | 2.0 | nan
+row 15 : Stanley Cup Finals | Game 3 | 20-May-75 | Philadelphia Flyers | 4.0 | Buffalo Sabres | 5.0 | (OT)
+row 16 : Stanley Cup Finals | Game 4 | 22-May-75 | Philadelphia Flyers | 2.0 | Buffalo Sabres | 4.0 | nan
+row 17 : Stanley Cup Finals | Game 5 | 25-May-75 | Buffalo Sabres | 1.0 | Philadelphia Flyers | 5.0 | nan
+row 18 : Stanley Cup Finals | Game 6 | 27-May-75 | Philadelphia Flyers | 2.0 | Buffalo Sabres | 0.0 | nan
+
+AttributeError: 'NoneType' object has no attribute 'group'

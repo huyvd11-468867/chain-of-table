@@ -1,0 +1,37 @@
+question: who received the least amount of votes?
+> Iteration: 0
+> Current table:
+col : Riding | Candidate | Gender | Residence | Occupation | Votes | % | Rank | Biographical notes
+row 1 : Cape Breton—Canso | Mark MacNeill | M | Inverness | Government and Business Policy Advisor | 7,660 | 21.1 | 3rd | Served in Ottawa as a consultant with National Advisory Board on Science and Technology, with the Treasury Board Secretariat and the Solicitor General's Aboriginal Policing Secretariat.
+row 2 : Central Nova | Mary Louise Lorefice | F | Antigonish | Retired educator | 7,659 | 19.6 | 3rd | Lorefice is a retired teacher from Antigonish, who has lived in the community for 38 years.
+row 3 : Cumberland—Colchester—Musquodoboit Valley | Karen Olsson | F | North River | Stay-at-home Mother | 4,874 | 12.3 | 2nd | nan
+row 4 : Dartmouth—Cole Harbour | Brad Pye | M | Ottawa, ON | Senior Political Party Program Officer | 12,793 | 31.5 | 2nd | Pye is an international development worker and son of former Dartmouth North MLA Jerry Pye.
+row 5 : Halifax | Megan Leslie | F | Halifax | Community Legal Worker | 19,252 | 42.7 | 1st | nan
+row 6 : Halifax West | Tamara Lorincz | F | Halifax | Director of Nova Scotia Environment Network | 12,201 | 29.6 | 2nd | An environmentalist.
+row 7 : Kings—Hants | Carol E. Harris | F | Wolfville | University Professor | 8,291 | 22.0 | 3rd | She was the NDP's candidate in the 2000 election in Esquimalt—Juan de Fuca.
+row 8 : Sackville—Eastern Shore | Peter Stoffer | M | Windsor Junction | Parliamentarian | 24,279 | 61.4 | 1st | Stoffer has been the incumbent MP since 1997.
+row 9 : South Shore—St. Margaret's | Gordon S. Earle | M | Upper Tantallon | Retired Public Servant | 13,456 | 33.7 | 2nd | Earle is the former federal MP for Halifax West (1997–2000). Has run in this riding unsuccessfully in 2004 and 2006.
+row 10 : Sydney—Victoria | Wayne McKay | M | Sydney | Teacher | 8,559 | 24.4 | 2nd | nan
+row 11 : West Nova | George Barron | M | Bear River | Paramedic | 7,097 | 16.9 | 3rd | Barron was born near Paris, Ontario, he has been a paramedic for 22 years. He was nominated on October 28, 2007.
+
+
+> New Operation + Args: f_sort_by(['Votes'])
+> Current chain: f_sort_by(['Votes']) -> 
+> Iteration: 1
+> Current table:
+col : Riding | Candidate | Gender | Residence | Occupation | Votes | % | Rank | Biographical notes
+row 1 : Halifax West | Tamara Lorincz | F | Halifax | Director of Nova Scotia Environment Network | 12,201 | 29.6 | 2nd | An environmentalist.
+row 2 : Dartmouth—Cole Harbour | Brad Pye | M | Ottawa, ON | Senior Political Party Program Officer | 12,793 | 31.5 | 2nd | Pye is an international development worker and son of former Dartmouth North MLA Jerry Pye.
+row 3 : South Shore—St. Margaret's | Gordon S. Earle | M | Upper Tantallon | Retired Public Servant | 13,456 | 33.7 | 2nd | Earle is the former federal MP for Halifax West (1997–2000). Has run in this riding unsuccessfully in 2004 and 2006.
+row 4 : Halifax | Megan Leslie | F | Halifax | Community Legal Worker | 19,252 | 42.7 | 1st | nan
+row 5 : Sackville—Eastern Shore | Peter Stoffer | M | Windsor Junction | Parliamentarian | 24,279 | 61.4 | 1st | Stoffer has been the incumbent MP since 1997.
+row 6 : Cumberland—Colchester—Musquodoboit Valley | Karen Olsson | F | North River | Stay-at-home Mother | 4,874 | 12.3 | 2nd | nan
+row 7 : West Nova | George Barron | M | Bear River | Paramedic | 7,097 | 16.9 | 3rd | Barron was born near Paris, Ontario, he has been a paramedic for 22 years. He was nominated on October 28, 2007.
+row 8 : Central Nova | Mary Louise Lorefice | F | Antigonish | Retired educator | 7,659 | 19.6 | 3rd | Lorefice is a retired teacher from Antigonish, who has lived in the community for 38 years.
+row 9 : Cape Breton—Canso | Mark MacNeill | M | Inverness | Government and Business Policy Advisor | 7,660 | 21.1 | 3rd | Served in Ottawa as a consultant with National Advisory Board on Science and Technology, with the Treasury Board Secretariat and the Solicitor General's Aboriginal Policing Secretariat.
+row 10 : Kings—Hants | Carol E. Harris | F | Wolfville | University Professor | 8,291 | 22.0 | 3rd | She was the NDP's candidate in the 2000 election in Esquimalt—Juan de Fuca.
+row 11 : Sydney—Victoria | Wayne McKay | M | Sydney | Teacher | 8,559 | 24.4 | 2nd | nan
+
+
+> Ending operation chain.
+assistant: Karen Olsson received the least amount of votes, with a total of 4,874 votes.
